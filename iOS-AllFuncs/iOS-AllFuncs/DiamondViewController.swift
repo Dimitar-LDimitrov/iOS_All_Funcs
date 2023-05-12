@@ -15,6 +15,7 @@ class DiamondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("DiamondViewController -> viewDidLoad")
         diceGameButton.layer.cornerRadius = 5
         
     }
