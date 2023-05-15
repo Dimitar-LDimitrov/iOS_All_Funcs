@@ -2,7 +2,7 @@
 import UIKit
 
 class EightBallViewController: UIViewController {
-
+    @IBOutlet weak var backNavButton: UINavigationItem!
     @IBOutlet weak var imageView: UIImageView!
     @IBAction func askButtonTapped(_ sender: UIButton) {
         
@@ -15,5 +15,6 @@ class EightBallViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        UINavigationBar.appearance().tintColor = .purple
     }
 }
