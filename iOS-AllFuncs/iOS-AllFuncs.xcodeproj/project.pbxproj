@@ -15,6 +15,7 @@
 		33B838572A0D105400982627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B838552A0D105400982627 /* LaunchScreen.storyboard */; };
 		33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8385E2A0D109900982627 /* DiceViewController.swift */; };
 		33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B838602A0D32F900982627 /* DiamondViewController.swift */; };
+		33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD8A9E2A12621200488470 /* EightBallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		33B838582A0D105400982627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B8385E2A0D109900982627 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
+		33FD8A9E2A12621200488470 /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				33B8384E2A0D105200982627 /* ViewController.swift */,
 				33B838602A0D32F900982627 /* DiamondViewController.swift */,
 				33B8385E2A0D109900982627 /* DiceViewController.swift */,
+				33FD8A9E2A12621200488470 /* EightBallViewController.swift */,
 				33B838502A0D105200982627 /* Main.storyboard */,
 				33B838532A0D105400982627 /* Assets.xcassets */,
 				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
+				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

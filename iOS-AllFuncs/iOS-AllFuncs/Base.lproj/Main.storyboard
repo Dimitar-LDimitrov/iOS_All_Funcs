@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Diamond View Controller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="DiamondViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DashboardViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-na-EhI">
-                                <rect key="frame" x="143" y="291" width="107.33333333333331" height="35"/>
+                                <rect key="frame" x="143" y="409" width="107.33333333333331" height="34.333333333333371"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -26,23 +26,80 @@
                                     <segue destination="16L-Sc-Hq8" kind="show" id="p4N-Dg-eOl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-jq-JbV">
+                                <rect key="frame" x="143" y="474" width="117" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Magic 8 Ball"/>
+                                <connections>
+                                    <segue destination="YD1-Id-gee" kind="show" id="5GY-at-Dk2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CGN-6V-oZe"/>
                             <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DwN-Ph-EQO"/>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="188" id="b8h-DB-XIs"/>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Neu-TO-dyY"/>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PQP-2F-68a"/>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ogE-mK-6Dg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="z9K-2o-v4v"/>
                     <connections>
                         <outlet property="diceGameButton" destination="JZ8-na-EhI" id="VHJ-cT-97W"/>
                         <outlet property="diceVCButton" destination="JZ8-na-EhI" id="BrX-wO-618"/>
+                        <outlet property="eightBallButton" destination="2Av-jq-JbV" id="iyb-we-mg3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="936.64122137404581" y="-34.507042253521128"/>
+        </scene>
+        <!--Eight Ball View Controller-->
+        <scene sceneID="RmL-bq-S7Q">
+            <objects>
+                <viewController id="YD1-Id-gee" customClass="EightBallViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qFn-Z5-pQ9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ask Me Anything..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vym-PL-i1u">
+                                <rect key="frame" x="65" y="131" width="263" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJ8-r3-qkz">
+                                <rect key="frame" x="76" y="279" width="240" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vt7-i7-ERH">
+                                <rect key="frame" x="170" y="613" width="53" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ask"/>
+                                <connections>
+                                    <action selector="askButtonTapped:" destination="YD1-Id-gee" eventType="touchUpInside" id="cPL-Ib-SM3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TDO-Hj-WK6"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7kh-cr-g6W"/>
+                    <connections>
+                        <outlet property="imageView" destination="NJ8-r3-qkz" id="7DZ-yz-ppE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84K-Gv-Fyp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.64122137404581" y="684.50704225352115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RBa-kK-p9u">
@@ -70,9 +127,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ssE-aN-hTk">
-                                <rect key="frame" x="0.0" y="0.0" width="407" height="867"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ssE-aN-hTk">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="GwG-nJ-WQ7">
                                 <rect key="frame" x="44" y="369" width="121" height="128"/>
@@ -100,6 +156,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jeT-ek-GgN"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="ssE-aN-hTk" firstAttribute="leading" secondItem="jeT-ek-GgN" secondAttribute="leading" id="EE7-AV-w3O"/>
+                            <constraint firstAttribute="bottom" secondItem="ssE-aN-hTk" secondAttribute="bottom" id="PJS-yw-SW1"/>
+                            <constraint firstItem="ssE-aN-hTk" firstAttribute="top" secondItem="nvO-cM-t2e" secondAttribute="top" id="ZLM-aA-52j"/>
+                            <constraint firstItem="ssE-aN-hTk" firstAttribute="trailing" secondItem="jeT-ek-GgN" secondAttribute="trailing" id="jdA-Fr-S2V"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uec-Sm-Hjj"/>
                     <connections>
@@ -125,6 +187,9 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

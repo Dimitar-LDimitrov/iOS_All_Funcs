@@ -7,28 +7,17 @@
 
 import UIKit
 
-class DiamondViewController: UIViewController {
+class DashboardViewController: UIViewController {
 
     @IBOutlet weak var diceGameButton: UIButton!
-    
     @IBOutlet weak var diceVCButton: UIButton!
+    @IBOutlet weak var eightBallButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("DiamondViewController -> viewDidLoad")
         diceGameButton.layer.cornerRadius = 5
-        
+        eightBallButton.layer.cornerRadius = 5
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
