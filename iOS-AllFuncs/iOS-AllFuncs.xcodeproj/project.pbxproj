@@ -25,6 +25,7 @@
 		33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B838602A0D32F900982627 /* DiamondViewController.swift */; };
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33F3731D2A165A9B00391035 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F3731C2A165A9A00391035 /* alarm_sound.mp3 */; };
+		33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3731E2A16649800391035 /* QuizzlerViewController.swift */; };
 		33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD8A9E2A12621200488470 /* EightBallViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33F3731C2A165A9A00391035 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../EggTimer-iOS13/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
+		33F3731E2A16649800391035 /* QuizzlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzlerViewController.swift; sourceTree = "<group>"; };
 		33FD8A9E2A12621200488470 /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				33B838582A0D105400982627 /* Info.plist */,
 				33C563892A137B12005477F9 /* XylophoneViewController.swift */,
 				337089492A137C8E00191ED2 /* Sounds */,
+				33F3731E2A16649800391035 /* QuizzlerViewController.swift */,
 			);
 			path = "iOS-AllFuncs";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
+				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
 				33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */,
 			);
