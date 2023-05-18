@@ -14,6 +14,7 @@
 		337089552A137C8E00191ED2 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894E2A137C8E00191ED2 /* G.wav */; };
 		337089562A137C8E00191ED2 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894F2A137C8E00191ED2 /* E.wav */; };
 		337089572A137C8E00191ED2 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 337089502A137C8E00191ED2 /* D.wav */; };
+		33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */; };
 		33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384A2A0D105200982627 /* AppDelegate.swift */; };
 		33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384C2A0D105200982627 /* SceneDelegate.swift */; };
 		33B8384F2A0D105200982627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384E2A0D105200982627 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8385E2A0D109900982627 /* DiceViewController.swift */; };
 		33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B838602A0D32F900982627 /* DiamondViewController.swift */; };
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
+		33F3731D2A165A9B00391035 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F3731C2A165A9A00391035 /* alarm_sound.mp3 */; };
 		33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD8A9E2A12621200488470 /* EightBallViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,7 @@
 		3370894E2A137C8E00191ED2 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		3370894F2A137C8E00191ED2 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		337089502A137C8E00191ED2 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerViewController.swift; sourceTree = "<group>"; };
 		33B838472A0D105200982627 /* iOS-AllFuncs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-AllFuncs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B8384A2A0D105200982627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B8384C2A0D105200982627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		33B8385E2A0D109900982627 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
+		33F3731C2A165A9A00391035 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../EggTimer-iOS13/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
 		33FD8A9E2A12621200488470 /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +66,7 @@
 		337089492A137C8E00191ED2 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				33F3731C2A165A9A00391035 /* alarm_sound.mp3 */,
 				3370894A2A137C8E00191ED2 /* A.wav */,
 				3370894B2A137C8E00191ED2 /* C.wav */,
 				3370894C2A137C8E00191ED2 /* B.wav */,
@@ -98,6 +103,7 @@
 				33B838602A0D32F900982627 /* DiamondViewController.swift */,
 				33B8385E2A0D109900982627 /* DiceViewController.swift */,
 				33FD8A9E2A12621200488470 /* EightBallViewController.swift */,
+				33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */,
 				33B838502A0D105200982627 /* Main.storyboard */,
 				33B838532A0D105400982627 /* Assets.xcassets */,
 				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
@@ -169,6 +175,7 @@
 				337089552A137C8E00191ED2 /* G.wav in Resources */,
 				33B838572A0D105400982627 /* LaunchScreen.storyboard in Resources */,
 				337089542A137C8E00191ED2 /* F.wav in Resources */,
+				33F3731D2A165A9B00391035 /* alarm_sound.mp3 in Resources */,
 				33B838542A0D105400982627 /* Assets.xcassets in Resources */,
 				337089512A137C8E00191ED2 /* A.wav in Resources */,
 				337089532A137C8E00191ED2 /* B.wav in Resources */,
@@ -188,6 +195,7 @@
 			files = (
 				33B8384F2A0D105200982627 /* ViewController.swift in Sources */,
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
+				33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */,
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
