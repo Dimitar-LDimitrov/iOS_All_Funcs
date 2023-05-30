@@ -24,6 +24,8 @@
 		33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8385E2A0D109900982627 /* DiceViewController.swift */; };
 		33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B838602A0D32F900982627 /* DiamondViewController.swift */; };
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
+		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
+		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
 		33F3731D2A165A9B00391035 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F3731C2A165A9A00391035 /* alarm_sound.mp3 */; };
 		33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3731E2A16649800391035 /* QuizzlerViewController.swift */; };
 		33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD8A9E2A12621200488470 /* EightBallViewController.swift */; };
@@ -49,6 +51,8 @@
 		33B8385E2A0D109900982627 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
+		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
 		33F3731C2A165A9A00391035 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../EggTimer-iOS13/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
 		33F3731E2A16649800391035 /* QuizzlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzlerViewController.swift; sourceTree = "<group>"; };
 		33FD8A9E2A12621200488470 /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
@@ -99,22 +103,48 @@
 		33B838492A0D105200982627 /* iOS-AllFuncs */ = {
 			isa = PBXGroup;
 			children = (
+				33D782C82A1BA6F4002DB61A /* Models */,
 				33B8384A2A0D105200982627 /* AppDelegate.swift */,
 				33B8384C2A0D105200982627 /* SceneDelegate.swift */,
+				33D782CB2A1C9EF4002DB61A /* Controller */,
+				33D782CC2A1C9F05002DB61A /* View */,
+				33B838532A0D105400982627 /* Assets.xcassets */,
+				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
+				33B838582A0D105400982627 /* Info.plist */,
+				337089492A137C8E00191ED2 /* Sounds */,
+			);
+			path = "iOS-AllFuncs";
+			sourceTree = "<group>";
+		};
+		33D782C82A1BA6F4002DB61A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33D782C92A1BA72A002DB61A /* Question.swift */,
+				33D782CD2A1C9FBB002DB61A /* QuizzData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33D782CB2A1C9EF4002DB61A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				33B8384E2A0D105200982627 /* ViewController.swift */,
 				33B838602A0D32F900982627 /* DiamondViewController.swift */,
 				33B8385E2A0D109900982627 /* DiceViewController.swift */,
 				33FD8A9E2A12621200488470 /* EightBallViewController.swift */,
 				33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */,
-				33B838502A0D105200982627 /* Main.storyboard */,
-				33B838532A0D105400982627 /* Assets.xcassets */,
-				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
-				33B838582A0D105400982627 /* Info.plist */,
 				33C563892A137B12005477F9 /* XylophoneViewController.swift */,
-				337089492A137C8E00191ED2 /* Sounds */,
 				33F3731E2A16649800391035 /* QuizzlerViewController.swift */,
 			);
-			path = "iOS-AllFuncs";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33D782CC2A1C9F05002DB61A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33B838502A0D105200982627 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +229,10 @@
 				33B8384F2A0D105200982627 /* ViewController.swift in Sources */,
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
 				33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */,
+				33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */,
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
+				33D782CA2A1BA72A002DB61A /* Question.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
