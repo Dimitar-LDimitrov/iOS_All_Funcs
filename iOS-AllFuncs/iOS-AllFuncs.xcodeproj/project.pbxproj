@@ -29,6 +29,7 @@
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
 		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
+		33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */; };
 		33F3731D2A165A9B00391035 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F3731C2A165A9A00391035 /* alarm_sound.mp3 */; };
 		33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F3731E2A16649800391035 /* QuizzlerViewController.swift */; };
 		33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD8A9E2A12621200488470 /* EightBallViewController.swift */; };
@@ -59,6 +60,7 @@
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
+		33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorViewController.swift; sourceTree = "<group>"; };
 		33F3731C2A165A9A00391035 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../EggTimer-iOS13/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
 		33F3731E2A16649800391035 /* QuizzlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzlerViewController.swift; sourceTree = "<group>"; };
 		33FD8A9E2A12621200488470 /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		33D782CB2A1C9EF4002DB61A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33F1C2692A2889FC00086322 /* BmiCalculator */,
 				33B8384E2A0D105200982627 /* ViewController.swift */,
 				33B838602A0D32F900982627 /* DiamondViewController.swift */,
 				33B8385E2A0D109900982627 /* DiceViewController.swift */,
@@ -170,6 +173,14 @@
 				33B838502A0D105200982627 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		33F1C2692A2889FC00086322 /* BmiCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */,
+			);
+			path = BmiCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 				33D782CA2A1BA72A002DB61A /* Question.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
+				33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
 				33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */,
