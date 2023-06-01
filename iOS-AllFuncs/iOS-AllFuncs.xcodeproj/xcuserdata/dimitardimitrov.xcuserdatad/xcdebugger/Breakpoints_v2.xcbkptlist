@@ -236,5 +236,84 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A758F930-BA48-4BAD-89B3-4D5C72588FB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "updateUi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "QuizzGameTwoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 488630ff3c92fb00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.getter : iOS_AllFuncs.StoryBrain"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - e1d3e5ca63f20470"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; iOS_AllFuncs.QuizzGameTwoViewController"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 65f6e8bd5dd16c63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;iOS_AllFuncs.QuizzGameTwoViewController&gt;"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
