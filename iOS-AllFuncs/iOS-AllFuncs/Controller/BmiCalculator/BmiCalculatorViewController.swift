@@ -9,6 +9,8 @@ class BmiCalculatorViewController: UIViewController {
     @IBOutlet weak var heightSLider: UISlider!
     @IBOutlet weak var weightSlider: UISlider!
     
+    var bmiCalculator = BmiCalculatorBrain()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,10 +29,17 @@ class BmiCalculatorViewController: UIViewController {
     
     @IBAction func calculatePressed(_ sender: Any) {
         
-        // bmi means Body Mass Index
-        var bmi = String(format: "%.2f", (weightSlider.value / sqrt(heightSLider.value)))
-        var bmi2 = String(format: "%.2f", (weightSlider.value / pow(heightSLider.value, 2)))
-        print(bmi)
-        print(bmi2)
+        bmiCalculator.calculateBmi(height: heightSLider.value, weight: weightSlider.value)
+        
+        self.performSegue(withIdentifier: "goToResult", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToResult" {
+            let resultVC = segue.destination as! ResultBMIViewController
+            resultVC.bmiValue = bmiCalculator.getBmiValue()
+            resultVC.advice = bmiCalculator.getAdvice()
+            resultVC.color = bmiCalculator.getColor()
+        }
     }
 }

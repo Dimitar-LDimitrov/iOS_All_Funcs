@@ -89,7 +89,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BMI Calculator"/>
                                 <connections>
-                                    <segue destination="sq7-nJ-pJH" kind="show" id="nPa-Lk-TCc"/>
+                                    <segue destination="sq7-nJ-pJH" kind="show" id="cH8-fF-bxZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -679,22 +679,86 @@
                         <outlet property="heightSLider" destination="Ucs-NQ-EIL" id="W8e-pS-eCO"/>
                         <outlet property="weightLabel" destination="EyW-XS-Mkk" id="4IX-xj-dfN"/>
                         <outlet property="weightSlider" destination="Sfp-Qa-hOg" id="1hx-Bl-GkW"/>
+                        <segue destination="2Bf-pd-h93" kind="presentation" identifier="goToResult" id="biy-MO-g87"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hol-M3-cbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1679" y="-35"/>
         </scene>
-        <!--View Controller-->
+        <!--ResultBMI View Controller-->
         <scene sceneID="osI-Vy-A1t">
             <objects>
-                <viewController id="2Bf-pd-h93" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="x1h-Nc-qgO">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <viewController id="2Bf-pd-h93" customClass="ResultBMIViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GN7-lk-4AP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="u7U-gG-CBC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="Zj8-vy-ZV0">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XMl-7r-2Es">
+                                <rect key="frame" x="78.666666666666686" y="302.66666666666669" width="236" height="177.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="YOUR RESULT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCE-Js-g7V">
+                                        <rect key="frame" x="0.0" y="0.0" width="236" height="42"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="19.5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdl-ak-Nq7">
+                                        <rect key="frame" x="0.0" y="50.000000000000007" width="236" height="95.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="EAT SOME MORE SNACKS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLL-w6-wRu">
+                                        <rect key="frame" x="0.0" y="153.66666666666663" width="236" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiO-jR-zgc">
+                                <rect key="frame" x="16" y="732" width="361" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Yfe-K9-NnA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="RECALCULATE">
+                                    <color key="titleColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="recalculatePressed:" destination="2Bf-pd-h93" eventType="touchUpInside" id="r1e-yY-6nE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vEm-P5-wMt"/>
+                        <color key="backgroundColor" red="0.19980379940000001" green="0.48169642689999997" blue="0.77313679459999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zj8-vy-ZV0" firstAttribute="top" secondItem="GN7-lk-4AP" secondAttribute="top" id="5sp-8W-YTN"/>
+                            <constraint firstAttribute="bottom" secondItem="Zj8-vy-ZV0" secondAttribute="bottom" id="P8R-P8-35R"/>
+                            <constraint firstItem="iiO-jR-zgc" firstAttribute="leading" secondItem="GN7-lk-4AP" secondAttribute="leadingMargin" id="Q08-ar-qTK"/>
+                            <constraint firstItem="XMl-7r-2Es" firstAttribute="centerY" secondItem="GN7-lk-4AP" secondAttribute="centerY" id="cjd-bv-VxS"/>
+                            <constraint firstItem="iiO-jR-zgc" firstAttribute="bottom" secondItem="vEm-P5-wMt" secondAttribute="bottom" id="fNb-yI-VY7"/>
+                            <constraint firstItem="iiO-jR-zgc" firstAttribute="trailing" secondItem="GN7-lk-4AP" secondAttribute="trailingMargin" id="oYP-AV-clH"/>
+                            <constraint firstItem="XMl-7r-2Es" firstAttribute="centerX" secondItem="GN7-lk-4AP" secondAttribute="centerX" id="qJE-qP-Zyb"/>
+                            <constraint firstAttribute="trailing" secondItem="Zj8-vy-ZV0" secondAttribute="trailing" id="vNL-qC-bci"/>
+                            <constraint firstItem="Zj8-vy-ZV0" firstAttribute="leading" secondItem="GN7-lk-4AP" secondAttribute="leading" id="wCg-L9-GFc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="adviceLabel" destination="jLL-w6-wRu" id="xHq-dp-ZOu"/>
+                        <outlet property="resultLabel" destination="Mdl-ak-Nq7" id="STL-aZ-Twi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RuO-xC-xRh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -977,6 +1041,7 @@
         <image name="choice2Background" width="1370.6666259765625" height="363"/>
         <image name="hard_egg" width="287.66665649414062" height="366.33334350585938"/>
         <image name="medium_egg" width="288" height="363.33334350585938"/>
+        <image name="result_background" width="375" height="812"/>
         <image name="soft_egg" width="287" height="365.33334350585938"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
