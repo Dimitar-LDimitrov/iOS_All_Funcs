@@ -15,9 +15,5 @@ class DashboardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        diceGameButton.layer.cornerRadius = 5
-        eightBallButton.layer.cornerRadius = 5
     }
-    
 }

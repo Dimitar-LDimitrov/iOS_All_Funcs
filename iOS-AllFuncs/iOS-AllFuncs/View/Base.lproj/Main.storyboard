@@ -16,8 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-na-EhI">
-                                <rect key="frame" x="143" y="409" width="107" height="34"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="yew-RA-Wp8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-na-EhI" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="186" width="107" height="34"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -26,9 +29,8 @@
                                     <segue destination="16L-Sc-Hq8" kind="show" id="p4N-Dg-eOl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-jq-JbV">
-                                <rect key="frame" x="143" y="474" width="117" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-jq-JbV" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="244" width="117" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -37,9 +39,8 @@
                                     <segue destination="YD1-Id-gee" kind="show" id="5GY-at-Dk2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVU-yf-041">
-                                <rect key="frame" x="149" y="553" width="105" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVU-yf-041" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="303" width="105" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -48,9 +49,8 @@
                                     <segue destination="Iiz-2T-p2H" kind="show" id="hv0-eI-jtL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jT-aF-HOH">
-                                <rect key="frame" x="151" y="627" width="102" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jT-aF-HOH" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="362" width="102" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -59,9 +59,8 @@
                                     <segue destination="i3d-iD-pX4" kind="show" id="EL2-yj-rQj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sm-uw-Hs4">
-                                <rect key="frame" x="160" y="702" width="87" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sm-uw-Hs4" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="421" width="87" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -70,20 +69,8 @@
                                     <segue destination="pbd-bL-qsU" kind="show" id="HiK-5X-jlu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMx-6Y-UNf">
-                                <rect key="frame" x="127" y="768" width="153" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Quizz Game Two"/>
-                                <connections>
-                                    <segue destination="ccX-fY-ebV" kind="show" id="6dR-iy-fgu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUe-HN-etK">
-                                <rect key="frame" x="127" y="127" width="135" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUe-HN-etK" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="127" width="135" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -92,15 +79,38 @@
                                     <segue destination="sq7-nJ-pJH" kind="show" id="cH8-fF-bxZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMx-6Y-UNf" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="24" y="480" width="153" height="35"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Quizz Game Two"/>
+                                <connections>
+                                    <segue destination="ccX-fY-ebV" kind="show" id="6dR-iy-fgu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CGN-6V-oZe"/>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DwN-Ph-EQO"/>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Neu-TO-dyY"/>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PQP-2F-68a"/>
-                            <constraint firstItem="JZ8-na-EhI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ogE-mK-6Dg"/>
+                            <constraint firstItem="yew-RA-Wp8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4LM-8a-Egk"/>
+                            <constraint firstItem="tUe-HN-etK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="5Oq-Yc-MvK"/>
+                            <constraint firstItem="nVU-yf-041" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="5RW-sU-DqL"/>
+                            <constraint firstAttribute="trailing" secondItem="yew-RA-Wp8" secondAttribute="trailing" id="9xc-67-CLP"/>
+                            <constraint firstItem="tUe-HN-etK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="AI0-zt-Oa9"/>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="top" secondItem="tUe-HN-etK" secondAttribute="bottom" constant="24" id="Arw-rN-nJo"/>
+                            <constraint firstItem="9sm-uw-Hs4" firstAttribute="top" secondItem="9jT-aF-HOH" secondAttribute="bottom" constant="24" id="HKh-eb-JJW"/>
+                            <constraint firstItem="nVU-yf-041" firstAttribute="top" secondItem="2Av-jq-JbV" secondAttribute="bottom" constant="24" id="JtX-Jb-idb"/>
+                            <constraint firstItem="9sm-uw-Hs4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="M7S-qS-inf"/>
+                            <constraint firstItem="9jT-aF-HOH" firstAttribute="top" secondItem="nVU-yf-041" secondAttribute="bottom" constant="24" id="PC5-t4-wiv"/>
+                            <constraint firstAttribute="bottom" secondItem="yew-RA-Wp8" secondAttribute="bottom" id="ZLE-Jr-tR9"/>
+                            <constraint firstItem="JZ8-na-EhI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="deW-87-rtJ"/>
+                            <constraint firstItem="yew-RA-Wp8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mUA-nw-a5s"/>
+                            <constraint firstItem="OMx-6Y-UNf" firstAttribute="top" secondItem="9sm-uw-Hs4" secondAttribute="bottom" constant="24" id="oeK-oj-SIw"/>
+                            <constraint firstItem="2Av-jq-JbV" firstAttribute="top" secondItem="JZ8-na-EhI" secondAttribute="bottom" constant="24" id="rBc-gQ-q32"/>
+                            <constraint firstItem="OMx-6Y-UNf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="vLa-Vo-eeu"/>
+                            <constraint firstItem="2Av-jq-JbV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="xTc-jj-HP0"/>
+                            <constraint firstItem="9jT-aF-HOH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="zn6-lr-ro4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="z9K-2o-v4v"/>
@@ -112,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="877" y="-35"/>
+            <point key="canvasLocation" x="875.57251908396938" y="-35.211267605633807"/>
         </scene>
         <!--Eight Ball View Controller-->
         <scene sceneID="RmL-bq-S7Q">
@@ -673,7 +683,7 @@
                             <constraint firstItem="tzS-Gf-0op" firstAttribute="top" secondItem="UXN-o4-y5f" secondAttribute="top" id="pTM-dp-eK4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="E1Z-sk-gO4"/>
+                    <navigationItem key="navigationItem" id="E1Z-sk-gO4" colorLabel="IBBuiltInLabel-Green"/>
                     <connections>
                         <outlet property="heightLabel" destination="NwZ-7U-Vp9" id="mLg-Mp-iF0"/>
                         <outlet property="heightSLider" destination="Ucs-NQ-EIL" id="W8e-pS-eCO"/>

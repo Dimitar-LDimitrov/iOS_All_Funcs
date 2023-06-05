@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
 		337089512A137C8E00191ED2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894A2A137C8E00191ED2 /* A.wav */; };
 		337089522A137C8E00191ED2 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894B2A137C8E00191ED2 /* C.wav */; };
 		337089532A137C8E00191ED2 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894C2A137C8E00191ED2 /* B.wav */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		3370894A2A137C8E00191ED2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
 		3370894B2A137C8E00191ED2 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 		3370894C2A137C8E00191ED2 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				33F1C26E2A29C0E400086322 /* BmiCalculator */,
 				33A0D4F82A277A1300057C0D /* QuizzGameTwo */,
 				33A0D4FA2A277A2F00057C0D /* Quizzler */,
+				330EEC972A2DFC1C006BA437 /* CustomButton.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B8384F2A0D105200982627 /* ViewController.swift in Sources */,
+				330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */,
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
 				33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */,
 				33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */,
