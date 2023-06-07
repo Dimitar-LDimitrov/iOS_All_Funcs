@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
+		3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */; };
+		3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */; };
 		337089512A137C8E00191ED2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894A2A137C8E00191ED2 /* A.wav */; };
 		337089522A137C8E00191ED2 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894B2A137C8E00191ED2 /* C.wav */; };
 		337089532A137C8E00191ED2 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894C2A137C8E00191ED2 /* B.wav */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorViewController.swift; sourceTree = "<group>"; };
+		3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorResultViewController.swift; sourceTree = "<group>"; };
 		3370894A2A137C8E00191ED2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
 		3370894B2A137C8E00191ED2 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 		3370894C2A137C8E00191ED2 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
@@ -85,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3355BB932A2E0EA2008C04E8 /* BillSplit */ = {
+			isa = PBXGroup;
+			children = (
+				3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */,
+				3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */,
+			);
+			path = BillSplit;
+			sourceTree = "<group>";
+		};
 		337089492A137C8E00191ED2 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +166,7 @@
 		33D782C82A1BA6F4002DB61A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3355BB932A2E0EA2008C04E8 /* BillSplit */,
 				33F1C26E2A29C0E400086322 /* BmiCalculator */,
 				33A0D4F82A277A1300057C0D /* QuizzGameTwo */,
 				33A0D4FA2A277A2F00057C0D /* Quizzler */,
@@ -292,6 +306,7 @@
 				33D782CA2A1BA72A002DB61A /* Question.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
+				3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */,
 				33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
@@ -300,6 +315,7 @@
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
 				33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */,
 				33F1C2722A29E61500086322 /* BMI.swift in Sources */,
+				3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */,
 				33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

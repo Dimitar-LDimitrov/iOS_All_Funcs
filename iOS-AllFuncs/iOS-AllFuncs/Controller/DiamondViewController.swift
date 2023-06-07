@@ -1,10 +1,3 @@
-//
-//  DiamondViewController.swift
-//  iOS-AllFuncs
-//
-//  Created by Dimitar Dimitrov on 11.05.23.
-//
-
 import UIKit
 
 class DashboardViewController: UIViewController {
@@ -15,5 +8,6 @@ class DashboardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 }

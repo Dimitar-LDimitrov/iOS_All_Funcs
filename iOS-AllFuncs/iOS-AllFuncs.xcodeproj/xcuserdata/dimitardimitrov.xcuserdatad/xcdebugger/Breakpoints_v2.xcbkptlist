@@ -280,7 +280,52 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
                   endingLineNumber = "10"
-                  offsetFromSymbolStart = "58">
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - bf1d8ba7fb4b4f74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.setter : iOS_AllFuncs.StoryBrain"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - db08b143e1e0807"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.modify : iOS_AllFuncs.StoryBrain"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - d8ec35481d38350b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.modify : iOS_AllFuncs.StoryBrain with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "15">
                </Location>
                <Location
                   uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - e1d3e5ca63f20470"
@@ -313,6 +358,102 @@
                   offsetFromSymbolStart = "229">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B53319F2-C639-4178-88BE-3042DABC97B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/BillSplit/BillCalculatorViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "calculatePressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAD307BC-1E3F-4CBA-BC29-C58873F180A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/BillSplit/BillCalculatorViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13A67332-10E3-451E-B139-D6B3A90D4F45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/BillSplit/BillCalculatorResultViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "13A67332-10E3-451E-B139-D6B3A90D4F45 - 64f897778b9fc95a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.BillCalculatorResultViewController.updateUI() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Models/BillSplit/BillCalculatorResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "13A67332-10E3-451E-B139-D6B3A90D4F45 - 64f897778b9fc95a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.BillCalculatorResultViewController.updateUI() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Models/BillSplit/BillCalculatorResultViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405C728B-2653-4A3F-BF95-7A675E9C8AA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/BillSplit/BillCalculatorViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "tipChanged(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
