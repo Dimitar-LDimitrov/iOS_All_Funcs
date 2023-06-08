@@ -32,6 +32,7 @@
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
 		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
+		33DEAB392A31BC1F009FFA36 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */; };
 		33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */; };
 		33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26C2A28E3F900086322 /* ResultBMIViewController.swift */; };
 		33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26F2A29C10700086322 /* BmiCalculatorBrain.swift */; };
@@ -69,6 +70,7 @@
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
+		33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
 		33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorViewController.swift; sourceTree = "<group>"; };
 		33F1C26C2A28E3F900086322 /* ResultBMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBMIViewController.swift; sourceTree = "<group>"; };
 		33F1C26F2A29C10700086322 /* BmiCalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorBrain.swift; sourceTree = "<group>"; };
@@ -166,7 +168,6 @@
 		33D782C82A1BA6F4002DB61A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3355BB932A2E0EA2008C04E8 /* BillSplit */,
 				33F1C26E2A29C0E400086322 /* BmiCalculator */,
 				33A0D4F82A277A1300057C0D /* QuizzGameTwo */,
 				33A0D4FA2A277A2F00057C0D /* Quizzler */,
@@ -178,6 +179,8 @@
 		33D782CB2A1C9EF4002DB61A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33DEAB372A31BC01009FFA36 /* ClimaApp */,
+				3355BB932A2E0EA2008C04E8 /* BillSplit */,
 				33F1C2692A2889FC00086322 /* BmiCalculator */,
 				33B8384E2A0D105200982627 /* ViewController.swift */,
 				33B838602A0D32F900982627 /* DiamondViewController.swift */,
@@ -197,6 +200,14 @@
 				33B838502A0D105200982627 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		33DEAB372A31BC01009FFA36 /* ClimaApp */ = {
+			isa = PBXGroup;
+			children = (
+				33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */,
+			);
+			path = ClimaApp;
 			sourceTree = "<group>";
 		};
 		33F1C2692A2889FC00086322 /* BmiCalculator */ = {
@@ -313,6 +324,7 @@
 				33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */,
 				33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */,
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
+				33DEAB392A31BC1F009FFA36 /* ClimaViewController.swift in Sources */,
 				33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */,
 				33F1C2722A29E61500086322 /* BMI.swift in Sources */,
 				3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */,
