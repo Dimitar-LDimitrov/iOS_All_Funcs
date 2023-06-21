@@ -5,20 +5,19 @@ import Foundation
 struct WeatherManager {
     
     // The API Url from Web
-    let weatherURL = ""
+    let weatherURL = Config.weatherApiKey
     
     // Here we add the city name from input field
     func fetchWeather(cityName: String) {
         let urlString = "\(weatherURL)&q=\(cityName)"
         
+        print(urlString)
         performRequest(urlString: urlString)
     }
-    
+    // Networking(fetch the live data)
     func performRequest(urlString: String) {
-        
         // 1. Create a URL
         if let url = URL(string: urlString) {
-            
             // 2. Create a URL Session
             let session = URLSession(configuration: .default)
             

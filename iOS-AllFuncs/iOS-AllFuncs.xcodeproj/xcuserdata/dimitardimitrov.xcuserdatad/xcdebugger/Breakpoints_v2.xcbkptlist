@@ -36,14 +36,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - c795256b5495898b"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - b6fc76bfbbf19cee"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quizzData.getter : iOS_AllFuncs.QuizzData"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -51,14 +51,14 @@
                   offsetFromSymbolStart = "116">
                </Location>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - df6e671865f2b19f"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - ae0734cc8a96a4fa"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quizzData.setter : iOS_AllFuncs.QuizzData"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -66,14 +66,14 @@
                   offsetFromSymbolStart = "157">
                </Location>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - 11068dad9804278c"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - 606fde79776032e9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quizzData.modify : iOS_AllFuncs.QuizzData"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -81,14 +81,14 @@
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - f9fa3ed44a3b72d2"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - 88936d00a55f67b7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quizzData.modify : iOS_AllFuncs.QuizzData with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -96,14 +96,14 @@
                   offsetFromSymbolStart = "15">
                </Location>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - 711f5db624ee214a"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - 760e62cb8a342f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; iOS_AllFuncs.QuizzlerViewController"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -111,14 +111,14 @@
                   offsetFromSymbolStart = "451">
                </Location>
                <Location
-                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - d5a9f2155eebe012"
+                  uuid = "BEEAA517-C629-4286-9F08-D1CFF1FEC837 - a4c0a1c1b18ff577"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;iOS_AllFuncs.QuizzlerViewController&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -144,14 +144,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 950b3e4f08b875cf"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - e4626d9be7dc60d2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quiz.getter : Swift.Array&lt;iOS_AllFuncs.Question&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -159,14 +159,14 @@
                   offsetFromSymbolStart = "90">
                </Location>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 3511649541de6ddb"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 44783741aeba78c6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quiz.setter : Swift.Array&lt;iOS_AllFuncs.Question&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -174,14 +174,14 @@
                   offsetFromSymbolStart = "116">
                </Location>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - f12868a94104c7cc"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 80413b7dae60d2d1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quiz.modify : Swift.Array&lt;iOS_AllFuncs.Question&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -189,14 +189,14 @@
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - d3c2736a6e48f66a"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - a2ab20be812ce377"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.quiz.modify : Swift.Array&lt;iOS_AllFuncs.Question&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -204,14 +204,14 @@
                   offsetFromSymbolStart = "15">
                </Location>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 711f5db624ee218c"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - 760e62cb8a3491"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; iOS_AllFuncs.QuizzlerViewController"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -219,14 +219,14 @@
                   offsetFromSymbolStart = "498">
                </Location>
                <Location
-                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - d5a9f2155eebe0d4"
+                  uuid = "03332288-3F38-42E2-AAF5-51CB8AF3A171 - a4c0a1c1b18ff5c9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzlerViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;iOS_AllFuncs.QuizzlerViewController&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzlerViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
@@ -268,14 +268,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 488630ff3c92fb00"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - db799ec4fcd04e8c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.getter : iOS_AllFuncs.StoryBrain"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -283,14 +283,14 @@
                   offsetFromSymbolStart = "103">
                </Location>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - bf1d8ba7fb4b4f74"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 2ce2259c3b09faf8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.setter : iOS_AllFuncs.StoryBrain"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -298,14 +298,14 @@
                   offsetFromSymbolStart = "139">
                </Location>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - db08b143e1e0807"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 9e4f252ffe5cbd8b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.modify : iOS_AllFuncs.StoryBrain"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -313,14 +313,14 @@
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - d8ec35481d38350b"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 4b139b73dd7a8087"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.stories.modify : iOS_AllFuncs.StoryBrain with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -328,14 +328,14 @@
                   offsetFromSymbolStart = "15">
                </Location>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - e1d3e5ca63f20470"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 722c4bf1a3b0b1fc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; iOS_AllFuncs.QuizzGameTwoViewController"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -343,14 +343,14 @@
                   offsetFromSymbolStart = "272">
                </Location>
                <Location
-                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - 65f6e8bd5dd16c63"
+                  uuid = "DABE35CA-5DE0-44C2-B41A-5437E07EF3B4 - f60946869d93d9ef"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.QuizzGameTwoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;iOS_AllFuncs.QuizzGameTwoViewController&gt;"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/QuizzGameTwoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -466,42 +466,90 @@
             filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "handle(data:response:error:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 14a573330f456eb4"
+                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 63fcd235d1a2f9e0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.WeatherManager.handle(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
                   offsetFromSymbolStart = "686">
                </Location>
                <Location
-                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 14a573330f456eb4"
+                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 63fcd235d1a2f9e0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "iOS_AllFuncs.WeatherManager.handle(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/Vivacom/Resources/iOS%20Training/Apps/iOS_AllFuncs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
                   offsetFromSymbolStart = "756">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9020F02-43FC-4349-923D-4F2342AC55B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "WeatherManager"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3898204-019F-4979-9661-9CBEEF046B73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "fetchWeather(cityName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB1169E6-44CC-449E-B9CA-903835B9960B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "fetchWeather(cityName:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
