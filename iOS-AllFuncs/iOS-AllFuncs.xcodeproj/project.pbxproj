@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
-		332F08262A42F9CC00CA6F0F /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F08252A42F9CC00CA6F0F /* TestFile.swift */; };
 		3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */; };
 		3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */; };
 		337089512A137C8E00191ED2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894A2A137C8E00191ED2 /* A.wav */; };
@@ -45,7 +44,6 @@
 
 /* Begin PBXFileReference section */
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		332F08252A42F9CC00CA6F0F /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorViewController.swift; sourceTree = "<group>"; };
 		3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorResultViewController.swift; sourceTree = "<group>"; };
 		3370894A2A137C8E00191ED2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 		33B8383E2A0D105200982627 = {
 			isa = PBXGroup;
 			children = (
-				332F08252A42F9CC00CA6F0F /* TestFile.swift */,
 				33B838492A0D105200982627 /* iOS-AllFuncs */,
 				33B838482A0D105200982627 /* Products */,
 			);
@@ -329,7 +326,6 @@
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
 				3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */,
-				332F08262A42F9CC00CA6F0F /* TestFile.swift in Sources */,
 				33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
