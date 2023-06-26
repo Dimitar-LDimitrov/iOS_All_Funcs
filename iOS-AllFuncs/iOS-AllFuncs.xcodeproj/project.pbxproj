@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
+		3327AE802A4992CD0040EB44 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE7F2A4992CD0040EB44 /* Config.swift */; };
 		3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */; };
 		3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */; };
 		337089512A137C8E00191ED2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894A2A137C8E00191ED2 /* A.wav */; };
@@ -44,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3327AE7F2A4992CD0040EB44 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3327AE812A49941B0040EB44 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 		3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorViewController.swift; sourceTree = "<group>"; };
 		3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorResultViewController.swift; sourceTree = "<group>"; };
 		3370894A2A137C8E00191ED2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
@@ -135,6 +138,7 @@
 		33B8383E2A0D105200982627 = {
 			isa = PBXGroup;
 			children = (
+				3327AE812A49941B0040EB44 /* .gitignore.swift */,
 				33B838492A0D105200982627 /* iOS-AllFuncs */,
 				33B838482A0D105200982627 /* Products */,
 			);
@@ -160,6 +164,7 @@
 				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
 				33B838582A0D105400982627 /* Info.plist */,
 				337089492A137C8E00191ED2 /* Sounds */,
+				3327AE7F2A4992CD0040EB44 /* Config.swift */,
 			);
 			path = "iOS-AllFuncs";
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
 				33DEAB552A32170A009FFA36 /* WeatherManager.swift in Sources */,
 				33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */,
+				3327AE802A4992CD0040EB44 /* Config.swift in Sources */,
 				33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */,
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
