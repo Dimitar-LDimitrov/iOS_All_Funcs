@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
 		3327AE802A4992CD0040EB44 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE7F2A4992CD0040EB44 /* Config.swift */; };
+		3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE842A49AB940040EB44 /* WeatherModel.swift */; };
 		3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */; };
 		3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */; };
 		337089512A137C8E00191ED2 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894A2A137C8E00191ED2 /* A.wav */; };
@@ -47,6 +48,7 @@
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		3327AE7F2A4992CD0040EB44 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		3327AE812A49941B0040EB44 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
+		3327AE842A49AB940040EB44 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		3355BB942A2E0F0F008C04E8 /* BillCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorViewController.swift; sourceTree = "<group>"; };
 		3355BB962A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculatorResultViewController.swift; sourceTree = "<group>"; };
 		3370894A2A137C8E00191ED2 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				33DEAB542A32170A009FFA36 /* WeatherManager.swift */,
+				3327AE842A49AB940040EB44 /* WeatherModel.swift */,
 			);
 			path = ClimaApp;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */,
 				33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */,
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
+				3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */,
 				33DEAB392A31BC1F009FFA36 /* ClimaViewController.swift in Sources */,
 				33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */,
 				33F1C2722A29E61500086322 /* BMI.swift in Sources */,

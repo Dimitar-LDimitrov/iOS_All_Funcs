@@ -459,54 +459,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C075467D-6B12-4143-A583-1E31ADB3E244"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "handle(data:response:error:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 63fcd235d1a2f9e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.WeatherManager.handle(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
-                  moduleName = "iOS-AllFuncs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "686">
-               </Location>
-               <Location
-                  uuid = "C075467D-6B12-4143-A583-1E31ADB3E244 - 63fcd235d1a2f9e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.WeatherManager.handle(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSURLResponse&gt;, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
-                  moduleName = "iOS-AllFuncs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/HTTPS/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "756">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F9020F02-43FC-4349-923D-4F2342AC55B5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -514,8 +466,8 @@
             filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "8"
-            endingLineNumber = "8"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "WeatherManager"
             landmarkType = "14">
          </BreakpointContent>
@@ -530,8 +482,8 @@
             filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "fetchWeather(cityName:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -546,8 +498,8 @@
             filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "fetchWeather(cityName:)"
             landmarkType = "7">
          </BreakpointContent>
