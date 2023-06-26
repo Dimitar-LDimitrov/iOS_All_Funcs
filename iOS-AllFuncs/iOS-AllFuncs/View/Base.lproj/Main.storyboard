@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Clima View Controller-->
+        <!--Weather View Controller-->
         <scene sceneID="sBa-ou-Yw0">
             <objects>
-                <viewController id="hAx-sN-2oW" customClass="ClimaViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hAx-sN-2oW" customClass="WeatherViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qKZ-So-M0r">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,7 +113,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="HiT-Fb-1ir"/>
                     <connections>
+                        <outlet property="cityLabel" destination="FOr-QE-nZ7" id="jH0-6s-Gah"/>
+                        <outlet property="conditionImageView" destination="oAA-pr-Sul" id="iQv-Y3-1Db"/>
                         <outlet property="searchTextField" destination="fpJ-lh-LZz" id="yZz-9T-Zxd"/>
+                        <outlet property="temperatureLabel" destination="1MW-Su-5le" id="bsV-bI-VWa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Se-Ba-eyU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
