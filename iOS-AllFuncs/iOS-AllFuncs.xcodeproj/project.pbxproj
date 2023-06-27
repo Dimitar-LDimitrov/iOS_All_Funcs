@@ -24,6 +24,9 @@
 		33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */; };
 		33A0D4FC2A277A7300057C0D /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4FB2A277A7300057C0D /* Story.swift */; };
 		33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4FD2A277AC700057C0D /* StoryBrain.swift */; };
+		33A9B2D72A4AC4F400908E55 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B2D62A4AC4F400908E55 /* BitcoinViewController.swift */; };
+		33A9B2DA2A4AC66000908E55 /* BitcoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B2D92A4AC66000908E55 /* BitcoinManager.swift */; };
+		33A9B2DC2A4B046D00908E55 /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9B2DB2A4B046D00908E55 /* BitcoinData.swift */; };
 		33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384A2A0D105200982627 /* AppDelegate.swift */; };
 		33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384C2A0D105200982627 /* SceneDelegate.swift */; };
 		33B8384F2A0D105200982627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8384E2A0D105200982627 /* ViewController.swift */; };
@@ -35,7 +38,7 @@
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
 		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
-		33DEAB392A31BC1F009FFA36 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */; };
+		33DEAB392A31BC1F009FFA36 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB382A31BC1F009FFA36 /* WeatherViewController.swift */; };
 		33DEAB552A32170A009FFA36 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB542A32170A009FFA36 /* WeatherManager.swift */; };
 		33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */; };
 		33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26C2A28E3F900086322 /* ResultBMIViewController.swift */; };
@@ -64,6 +67,9 @@
 		33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzGameTwoViewController.swift; sourceTree = "<group>"; };
 		33A0D4FB2A277A7300057C0D /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		33A0D4FD2A277AC700057C0D /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		33A9B2D62A4AC4F400908E55 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
+		33A9B2D92A4AC66000908E55 /* BitcoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinManager.swift; sourceTree = "<group>"; };
+		33A9B2DB2A4B046D00908E55 /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
 		33B838472A0D105200982627 /* iOS-AllFuncs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-AllFuncs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B8384A2A0D105200982627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33B8384C2A0D105200982627 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +83,7 @@
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
-		33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		33DEAB382A31BC1F009FFA36 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		33DEAB542A32170A009FFA36 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorViewController.swift; sourceTree = "<group>"; };
 		33F1C26C2A28E3F900086322 /* ResultBMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBMIViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,23 @@
 			path = Quizzler;
 			sourceTree = "<group>";
 		};
+		33A9B2D52A4AC4D400908E55 /* BitcoinApp */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B2D62A4AC4F400908E55 /* BitcoinViewController.swift */,
+			);
+			path = BitcoinApp;
+			sourceTree = "<group>";
+		};
+		33A9B2D82A4AC63F00908E55 /* BitcoinApp */ = {
+			isa = PBXGroup;
+			children = (
+				33A9B2D92A4AC66000908E55 /* BitcoinManager.swift */,
+				33A9B2DB2A4B046D00908E55 /* BitcoinData.swift */,
+			);
+			path = BitcoinApp;
+			sourceTree = "<group>";
+		};
 		33B8383E2A0D105200982627 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +199,7 @@
 		33D782C82A1BA6F4002DB61A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				33A9B2D82A4AC63F00908E55 /* BitcoinApp */,
 				33DEAB532A3216F1009FFA36 /* ClimaApp */,
 				33F1C26E2A29C0E400086322 /* BmiCalculator */,
 				33A0D4F82A277A1300057C0D /* QuizzGameTwo */,
@@ -188,6 +212,7 @@
 		33D782CB2A1C9EF4002DB61A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33A9B2D52A4AC4D400908E55 /* BitcoinApp */,
 				33DEAB372A31BC01009FFA36 /* ClimaApp */,
 				3355BB932A2E0EA2008C04E8 /* BillSplit */,
 				33F1C2692A2889FC00086322 /* BmiCalculator */,
@@ -214,7 +239,7 @@
 		33DEAB372A31BC01009FFA36 /* ClimaApp */ = {
 			isa = PBXGroup;
 			children = (
-				33DEAB382A31BC1F009FFA36 /* ClimaViewController.swift */,
+				33DEAB382A31BC1F009FFA36 /* WeatherViewController.swift */,
 			);
 			path = ClimaApp;
 			sourceTree = "<group>";
@@ -329,12 +354,14 @@
 				330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */,
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
 				33DEAB552A32170A009FFA36 /* WeatherManager.swift in Sources */,
+				33A9B2DC2A4B046D00908E55 /* BitcoinData.swift in Sources */,
 				33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */,
 				3327AE802A4992CD0040EB44 /* Config.swift in Sources */,
 				33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */,
 				33B8384B2A0D105200982627 /* AppDelegate.swift in Sources */,
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
 				33D782CA2A1BA72A002DB61A /* Question.swift in Sources */,
+				33A9B2DA2A4AC66000908E55 /* BitcoinManager.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
 				3327AE872A49AC1F0040EB44 /* WeatherData.swift in Sources */,
@@ -346,7 +373,8 @@
 				33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */,
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
 				3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */,
-				33DEAB392A31BC1F009FFA36 /* ClimaViewController.swift in Sources */,
+				33DEAB392A31BC1F009FFA36 /* WeatherViewController.swift in Sources */,
+				33A9B2D72A4AC4F400908E55 /* BitcoinViewController.swift in Sources */,
 				33F1C26D2A28E3F900086322 /* ResultBMIViewController.swift in Sources */,
 				33F1C2722A29E61500086322 /* BMI.swift in Sources */,
 				3355BB972A2E0F5A008C04E8 /* BillCalculatorResultViewController.swift in Sources */,

@@ -729,47 +729,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F9020F02-43FC-4349-923D-4F2342AC55B5"
+            uuid = "8F982B0A-CDFA-413D-9EC7-63A608F31638"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+            filePath = "iOS-AllFuncs/Models/BitcoinApp/BitcoinManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "WeatherManager"
-            landmarkType = "14">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getCoinPrice(for:)"
+            landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F9020F02-43FC-4349-923D-4F2342AC55B5 - b713e14afebb16fe"
+                  uuid = "8F982B0A-CDFA-413D-9EC7-63A608F31638 - 6624e6088a756ed2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.WeatherManager.init() -&gt; iOS_AllFuncs.WeatherManager"
+                  symbolName = "iOS_AllFuncs.BitcoinManager.getCoinPrice(for: Swift.String) -&gt; ()"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/BitcoinApp/BitcoinManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "35">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "238">
                </Location>
                <Location
-                  uuid = "F9020F02-43FC-4349-923D-4F2342AC55B5 - 3376f51365756fda"
+                  uuid = "8F982B0A-CDFA-413D-9EC7-63A608F31638 - 6624e6088a756e10"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.WeatherManager.init(delegate: Swift.Optional&lt;iOS_AllFuncs.WeatherManagerDelegate&gt;) -&gt; iOS_AllFuncs.WeatherManager"
+                  symbolName = "iOS_AllFuncs.BitcoinManager.getCoinPrice(for: Swift.String) -&gt; ()"
                   moduleName = "iOS-AllFuncs"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/BitcoinApp/BitcoinManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "16">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "235">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -777,16 +777,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A3898204-019F-4979-9661-9CBEEF046B73"
+            uuid = "2D734FA4-D1E8-4465-88BE-3764628298D4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iOS-AllFuncs/Models/ClimaApp/WeatherManager.swift"
+            filePath = "iOS-AllFuncs/Models/BitcoinApp/BitcoinManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "fetchWeather(cityName:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getCoinPrice(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
