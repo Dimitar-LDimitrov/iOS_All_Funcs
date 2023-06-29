@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tnj-Ch-JHg">
-    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -167,7 +167,7 @@
                                                             <constraint firstAttribute="width" constant="80" id="0hS-De-pEO"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuV-sX-1O9">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="................." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuV-sX-1O9">
                                                         <rect key="frame" x="89.999999999999986" y="25" width="213.66666666666663" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -193,6 +193,7 @@
                                             <constraint firstAttribute="trailing" secondItem="8BQ-IE-ov6" secondAttribute="trailing" constant="10" id="HeF-sQ-SZa"/>
                                             <constraint firstItem="8BQ-IE-ov6" firstAttribute="top" secondItem="BA9-k8-zXw" secondAttribute="top" id="J4G-fL-bKx"/>
                                             <constraint firstAttribute="height" constant="80" id="iiY-oB-F86"/>
+                                            <constraint firstAttribute="trailing" secondItem="8BQ-IE-ov6" secondAttribute="trailing" constant="10" id="qIm-E0-tPx"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -336,6 +337,16 @@
                                     <segue destination="gy8-7X-mBL" kind="show" id="Vf7-nh-yXz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0w-GR-hck" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="157" y="245" width="105" height="35"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Flash Chat"/>
+                                <connections>
+                                    <segue destination="V2k-Yn-WE8" kind="show" id="C3l-Su-Kd5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -354,6 +365,7 @@
                             <constraint firstItem="aYo-Pq-UBD" firstAttribute="top" secondItem="OMx-6Y-UNf" secondAttribute="bottom" constant="24" id="O31-tL-FRY"/>
                             <constraint firstItem="9jT-aF-HOH" firstAttribute="top" secondItem="nVU-yf-041" secondAttribute="bottom" constant="24" id="PC5-t4-wiv"/>
                             <constraint firstItem="h9p-fw-D61" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="PxI-Yr-QFi"/>
+                            <constraint firstItem="x0w-GR-hck" firstAttribute="leading" secondItem="2Av-jq-JbV" secondAttribute="trailing" constant="16" id="Y8P-vK-Ufp"/>
                             <constraint firstAttribute="bottom" secondItem="yew-RA-Wp8" secondAttribute="bottom" id="ZLE-Jr-tR9"/>
                             <constraint firstItem="J9L-xi-b02" firstAttribute="leading" secondItem="JZ8-na-EhI" secondAttribute="trailing" constant="16" id="bIi-8X-zfP"/>
                             <constraint firstItem="JZ8-na-EhI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="deW-87-rtJ"/>
@@ -362,6 +374,7 @@
                             <constraint firstItem="OMx-6Y-UNf" firstAttribute="top" secondItem="9sm-uw-Hs4" secondAttribute="bottom" constant="24" id="oeK-oj-SIw"/>
                             <constraint firstItem="2Av-jq-JbV" firstAttribute="top" secondItem="JZ8-na-EhI" secondAttribute="bottom" constant="24" id="rBc-gQ-q32"/>
                             <constraint firstItem="OMx-6Y-UNf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="vLa-Vo-eeu"/>
+                            <constraint firstItem="x0w-GR-hck" firstAttribute="top" secondItem="J9L-xi-b02" secondAttribute="bottom" constant="24" id="wzY-TZ-PCO"/>
                             <constraint firstItem="2Av-jq-JbV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="xTc-jj-HP0"/>
                             <constraint firstItem="9jT-aF-HOH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="zn6-lr-ro4"/>
                         </constraints>
@@ -1322,6 +1335,128 @@
             </objects>
             <point key="canvasLocation" x="3863" y="-35"/>
         </scene>
+        <!--Register View Controller-->
+        <scene sceneID="xok-yV-mhZ">
+            <objects>
+                <viewController id="gw9-6R-Rhs" customClass="RegisterViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZMv-a4-nUK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="blc-3V-vlI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wko-7d-e0Q"/>
+                    <connections>
+                        <segue destination="am8-AT-zQz" kind="show" identifier="RegisterToChat" id="Wcs-MY-5sK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nME-yh-yge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-826" y="-1072"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="Z3B-Gt-9hB">
+            <objects>
+                <viewController id="am8-AT-zQz" customClass="ChatViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aFY-Ux-SaC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4xD-qD-ASt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dvJ-t0-zFg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NV1-G4-PmJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1571" y="-681"/>
+        </scene>
+        <!--Log In View Controller-->
+        <scene sceneID="mUT-Wq-KXJ">
+            <objects>
+                <viewController id="9gE-7v-IOx" customClass="LogInViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lgl-OU-6Jy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nqh-xI-dm2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yEg-1o-sR3"/>
+                    <connections>
+                        <segue destination="am8-AT-zQz" kind="show" identifier="LogInToChat" id="TCT-X8-CU4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14E-sZ-xat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-815" y="-387"/>
+        </scene>
+        <!--Flash Chat View Controller-->
+        <scene sceneID="z0y-Ai-vtB">
+            <objects>
+                <viewController id="V2k-Yn-WE8" customClass="FlashChatViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sam-ve-3aL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKf-tc-vEV">
+                                <rect key="frame" x="0.0" y="757" width="393" height="61"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="uR6-dj-RQN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9gE-7v-IOx" kind="show" id="lT5-M9-lWt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-8U-DhF">
+                                <rect key="frame" x="52" y="396" width="289" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="JiW-37-eAa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <color key="textColor" name="BrandBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNr-bn-0la">
+                                <rect key="frame" x="0.0" y="701" width="393" height="48"/>
+                                <color key="backgroundColor" name="BrandLightBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="H6O-kY-9v4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" name="BrandBlue"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gw9-6R-Rhs" kind="show" id="13w-pP-Ec3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RxJ-Wl-xSf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7H8-8U-DhF" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" constant="52" id="0hp-cH-xLu"/>
+                            <constraint firstItem="XKf-tc-vEV" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" id="4pg-xj-316"/>
+                            <constraint firstItem="oNr-bn-0la" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" id="BFA-8v-PMp"/>
+                            <constraint firstItem="XKf-tc-vEV" firstAttribute="bottom" secondItem="RxJ-Wl-xSf" secondAttribute="bottom" id="DtE-mj-WbJ"/>
+                            <constraint firstItem="7H8-8U-DhF" firstAttribute="centerX" secondItem="sam-ve-3aL" secondAttribute="centerX" id="Sq9-43-ymG"/>
+                            <constraint firstItem="XKf-tc-vEV" firstAttribute="top" secondItem="oNr-bn-0la" secondAttribute="bottom" constant="8" id="Zoj-nU-uzu"/>
+                            <constraint firstItem="XKf-tc-vEV" firstAttribute="trailing" secondItem="RxJ-Wl-xSf" secondAttribute="trailing" id="cTW-Co-JlD"/>
+                            <constraint firstItem="RxJ-Wl-xSf" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7H8-8U-DhF" secondAttribute="trailing" id="t1T-tb-Cgp"/>
+                            <constraint firstItem="7H8-8U-DhF" firstAttribute="centerY" secondItem="sam-ve-3aL" secondAttribute="centerY" id="uda-zw-LdO"/>
+                            <constraint firstItem="oNr-bn-0la" firstAttribute="trailing" secondItem="RxJ-Wl-xSf" secondAttribute="trailing" id="wqi-uV-xzL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WbL-1U-JFg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1d-I6-aTJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="-1061"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RBa-kK-p9u">
             <objects>
@@ -1586,6 +1721,9 @@
             <point key="canvasLocation" x="10" y="685"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wcs-MY-5sK"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemCyanColor"/>
     <resources>
         <image name="Background-Bubbles" width="352" height="102"/>
@@ -1608,6 +1746,12 @@
         <image name="soft_egg" width="287" height="365.33334350585938"/>
         <namedColor name="Background Color">
             <color red="0.50599998235702515" green="0.92500001192092896" blue="0.92500001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandBlue">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandLightBlue">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Icon Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1644,6 +1788,9 @@
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

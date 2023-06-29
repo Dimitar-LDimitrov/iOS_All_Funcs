@@ -36,7 +36,7 @@ struct BitcoinManager {
                 //Format the data we got back as a string to be able to print it.
                 let dataAsString = String(data: data!, encoding: .utf8)
                 
-                print(dataAsString)
+                print(dataAsString!)
                 
                 if let safeData = data {
                     

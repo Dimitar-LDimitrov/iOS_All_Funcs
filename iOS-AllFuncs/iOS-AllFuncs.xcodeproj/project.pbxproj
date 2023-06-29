@@ -38,6 +38,10 @@
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
 		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
+		33DB83EE2A4C77A400970096 /* FlashChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB83ED2A4C77A400970096 /* FlashChatViewController.swift */; };
+		33DB83F02A4C785900970096 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB83EF2A4C785900970096 /* RegisterViewController.swift */; };
+		33DB83F22A4C786900970096 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB83F12A4C786900970096 /* LogInViewController.swift */; };
+		33DB83F42A4C787500970096 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB83F32A4C787500970096 /* ChatViewController.swift */; };
 		33DEAB392A31BC1F009FFA36 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB382A31BC1F009FFA36 /* WeatherViewController.swift */; };
 		33DEAB552A32170A009FFA36 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEAB542A32170A009FFA36 /* WeatherManager.swift */; };
 		33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */; };
@@ -83,6 +87,10 @@
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
+		33DB83ED2A4C77A400970096 /* FlashChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatViewController.swift; sourceTree = "<group>"; };
+		33DB83EF2A4C785900970096 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		33DB83F12A4C786900970096 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		33DB83F32A4C787500970096 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		33DEAB382A31BC1F009FFA36 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		33DEAB542A32170A009FFA36 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		33F1C26A2A288A1F00086322 /* BmiCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BmiCalculatorViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +220,7 @@
 		33D782CB2A1C9EF4002DB61A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33DB83EC2A4C778100970096 /* FlashChat */,
 				33A9B2D52A4AC4D400908E55 /* BitcoinApp */,
 				33DEAB372A31BC01009FFA36 /* ClimaApp */,
 				3355BB932A2E0EA2008C04E8 /* BillSplit */,
@@ -234,6 +243,17 @@
 				33B838502A0D105200982627 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		33DB83EC2A4C778100970096 /* FlashChat */ = {
+			isa = PBXGroup;
+			children = (
+				33DB83ED2A4C77A400970096 /* FlashChatViewController.swift */,
+				33DB83EF2A4C785900970096 /* RegisterViewController.swift */,
+				33DB83F12A4C786900970096 /* LogInViewController.swift */,
+				33DB83F32A4C787500970096 /* ChatViewController.swift */,
+			);
+			path = FlashChat;
 			sourceTree = "<group>";
 		};
 		33DEAB372A31BC01009FFA36 /* ClimaApp */ = {
@@ -362,14 +382,18 @@
 				33B8384D2A0D105200982627 /* SceneDelegate.swift in Sources */,
 				33D782CA2A1BA72A002DB61A /* Question.swift in Sources */,
 				33A9B2DA2A4AC66000908E55 /* BitcoinManager.swift in Sources */,
+				33DB83F22A4C786900970096 /* LogInViewController.swift in Sources */,
+				33DB83F42A4C787500970096 /* ChatViewController.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
 				3327AE872A49AC1F0040EB44 /* WeatherData.swift in Sources */,
+				33DB83EE2A4C77A400970096 /* FlashChatViewController.swift in Sources */,
 				3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */,
 				33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
 				33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */,
+				33DB83F02A4C785900970096 /* RegisterViewController.swift in Sources */,
 				33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */,
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
 				3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */,

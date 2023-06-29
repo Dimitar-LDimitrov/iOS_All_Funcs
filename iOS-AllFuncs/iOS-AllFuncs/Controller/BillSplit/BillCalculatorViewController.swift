@@ -42,8 +42,8 @@ class BillCalculatorViewController: UIViewController {
     //125.50
     @IBAction func calculatePressed(_ sender: UIButton) {
         
-        var billTextToDouble = Double(billTextField.text!)
-        var result = billTextToDouble! / Double(splitNumber)
+        let billTextToDouble = Double(billTextField.text!)
+        let result = billTextToDouble! / Double(splitNumber)
         finalResult = result + result * selectedTipPercentage
         
         performSegue(withIdentifier: "showResultSegue", sender: nil)

@@ -9,7 +9,7 @@ class EightBallViewController: UIViewController {
         
         let ballsArray = [UIImage(named: "ball1"),UIImage(named: "ball2"),UIImage(named: "ball3"),UIImage(named: "ball4"),UIImage(named: "ball5")]
         
-        imageView.image = ballsArray.randomElement() as! UIImage
+        imageView.image = ballsArray.randomElement() as? UIImage
     }
     
     override func viewDidLoad() {
