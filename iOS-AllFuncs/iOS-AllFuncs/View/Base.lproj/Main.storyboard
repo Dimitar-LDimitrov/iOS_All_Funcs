@@ -1411,7 +1411,7 @@
                                     <segue destination="9gE-7v-IOx" kind="show" id="lT5-M9-lWt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-8U-DhF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-8U-DhF" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="52" y="396" width="289" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="JiW-37-eAa"/>
@@ -1724,6 +1724,9 @@
             <point key="canvasLocation" x="10" y="685"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="7H8-8U-DhF"/>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="Wcs-MY-5sK"/>
     </inferredMetricsTieBreakers>

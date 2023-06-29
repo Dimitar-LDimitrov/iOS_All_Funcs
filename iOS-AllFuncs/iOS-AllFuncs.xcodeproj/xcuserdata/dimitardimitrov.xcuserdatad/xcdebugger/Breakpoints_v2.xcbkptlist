@@ -771,6 +771,21 @@
                   endingLineNumber = "20"
                   offsetFromSymbolStart = "235">
                </Location>
+               <Location
+                  uuid = "8F982B0A-CDFA-413D-9EC7-63A608F31638 - 6624e6088a756e71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.BitcoinManager.getCoinPrice(for: Swift.String) -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Models/BitcoinApp/BitcoinManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "235">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
