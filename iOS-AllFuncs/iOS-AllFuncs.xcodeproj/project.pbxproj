@@ -200,16 +200,16 @@
 			isa = PBXGroup;
 			children = (
 				33D782C82A1BA6F4002DB61A /* Models */,
-				33B8384A2A0D105200982627 /* AppDelegate.swift */,
-				33B8384C2A0D105200982627 /* SceneDelegate.swift */,
 				33D782CB2A1C9EF4002DB61A /* Controller */,
 				33D782CC2A1C9F05002DB61A /* View */,
+				337089492A137C8E00191ED2 /* Sounds */,
 				33B838532A0D105400982627 /* Assets.xcassets */,
 				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
 				33B838582A0D105400982627 /* Info.plist */,
 				3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */,
-				337089492A137C8E00191ED2 /* Sounds */,
 				3327AE7F2A4992CD0040EB44 /* Config.swift */,
+				33B8384A2A0D105200982627 /* AppDelegate.swift */,
+				33B8384C2A0D105200982627 /* SceneDelegate.swift */,
 			);
 			path = "iOS-AllFuncs";
 			sourceTree = "<group>";

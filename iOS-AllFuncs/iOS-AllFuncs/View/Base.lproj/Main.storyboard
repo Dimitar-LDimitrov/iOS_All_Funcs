@@ -1377,6 +1377,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" name="BrandBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerPressed:" destination="gw9-6R-Rhs" eventType="touchUpInside" id="I4K-gV-3Cg"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="ixf-wz-pfQ">
                                         <rect key="frame" x="0.0" y="20" width="393" height="137"/>
@@ -1553,6 +1556,9 @@
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" name="BrandLightBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="LogInPressed:" destination="9gE-7v-IOx" eventType="touchUpInside" id="J7b-8u-4DW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1585,6 +1591,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="yEg-1o-sR3"/>
                     <connections>
+                        <outlet property="emailTextField" destination="wN9-rK-Kd6" id="7tH-P7-1Qh"/>
+                        <outlet property="passwordTextField" destination="ZZ2-Ax-YQl" id="4s8-b5-TUf"/>
                         <segue destination="am8-AT-zQz" kind="show" identifier="LogInToChat" id="TCT-X8-CU4"/>
                     </connections>
                 </viewController>
@@ -1615,7 +1623,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-8U-DhF" customClass="Lab">
-                                <rect key="frame" x="52" y="396" width="289" height="60"/>
+                                <rect key="frame" x="42" y="396" width="309" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="JiW-37-eAa"/>
                                 </constraints>
@@ -1642,7 +1650,7 @@
                         <viewLayoutGuide key="safeArea" id="RxJ-Wl-xSf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7H8-8U-DhF" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" constant="52" id="0hp-cH-xLu"/>
+                            <constraint firstItem="7H8-8U-DhF" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" constant="42" id="0hp-cH-xLu"/>
                             <constraint firstItem="XKf-tc-vEV" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" id="4pg-xj-316"/>
                             <constraint firstItem="oNr-bn-0la" firstAttribute="leading" secondItem="RxJ-Wl-xSf" secondAttribute="leading" id="BFA-8v-PMp"/>
                             <constraint firstItem="XKf-tc-vEV" firstAttribute="bottom" secondItem="RxJ-Wl-xSf" secondAttribute="bottom" id="DtE-mj-WbJ"/>
@@ -1928,7 +1936,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Wcs-MY-5sK"/>
+        <segue reference="TCT-X8-CU4"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemCyanColor"/>
     <resources>
