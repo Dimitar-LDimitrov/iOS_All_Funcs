@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16D8D9E71CFC530FAF3F1877 /* Pods_iOS_AllFuncs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BD96475A44CC1315523943 /* Pods_iOS_AllFuncs.framework */; };
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
+		331314602A5C1F4F00635F64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */; };
 		3327AE802A4992CD0040EB44 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE7F2A4992CD0040EB44 /* Config.swift */; };
 		3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE842A49AB940040EB44 /* WeatherModel.swift */; };
 		3327AE872A49AC1F0040EB44 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE862A49AC1F0040EB44 /* WeatherData.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3327AE7F2A4992CD0040EB44 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		3327AE812A49941B0040EB44 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 		3327AE842A49AB940040EB44 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				33B838532A0D105400982627 /* Assets.xcassets */,
 				33B838552A0D105400982627 /* LaunchScreen.storyboard */,
 				33B838582A0D105400982627 /* Info.plist */,
+				3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */,
 				337089492A137C8E00191ED2 /* Sounds */,
 				3327AE7F2A4992CD0040EB44 /* Config.swift */,
 			);
@@ -313,7 +316,6 @@
 				8BFD9D1B89524A06F4099467 /* Pods-iOS-AllFuncs.debug.xcconfig */,
 				5217D831E144EEBA25966BF9 /* Pods-iOS-AllFuncs.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -385,6 +387,7 @@
 				337089532A137C8E00191ED2 /* B.wav in Resources */,
 				337089562A137C8E00191ED2 /* E.wav in Resources */,
 				337089572A137C8E00191ED2 /* D.wav in Resources */,
+				331314602A5C1F4F00635F64 /* GoogleService-Info.plist in Resources */,
 				33B838522A0D105200982627 /* Main.storyboard in Resources */,
 				337089522A137C8E00191ED2 /* C.wav in Resources */,
 			);

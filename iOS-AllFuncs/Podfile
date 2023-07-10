@@ -5,6 +5,7 @@ target 'iOS-AllFuncs' do
 
   # Pods for iOS-AllFuncs
   
-    pod 'CLTypingLabel', '~> 0.4.0'
-    
+   # pod 'CLTypingLabel', '~> 0.4.0'
+    pod 'FirebaseAuth'
+    pod 'FirebaseFirestore'
 end
