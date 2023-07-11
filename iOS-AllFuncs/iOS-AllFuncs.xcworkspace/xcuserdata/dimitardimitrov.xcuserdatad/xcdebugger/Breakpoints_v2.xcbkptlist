@@ -3,4 +3,54 @@
    uuid = "784251D9-F6E6-4C39-9BB5-446556947098"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "387BD649-B30A-43FA-8286-9C5001618FEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Controller/FlashChat/FlashChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "387BD649-B30A-43FA-8286-9C5001618FEA - c73a8319bb352260"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.FlashChatViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/FlashChat/FlashChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "417">
+               </Location>
+               <Location
+                  uuid = "387BD649-B30A-43FA-8286-9C5001618FEA - c73a8319bb352260"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.FlashChatViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/FlashChat/FlashChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

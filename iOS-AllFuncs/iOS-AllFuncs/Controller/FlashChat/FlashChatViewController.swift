@@ -20,12 +20,28 @@ class FlashChatViewController: UIViewController {
         let titleText = "⚡️FlashChat"
         
         for letter in titleText {
-            Timer.scheduledTimer(withTimeInterval: 0.13 * charIndex, repeats: false) { (timer) in
+            Timer.scheduledTimer(withTimeInterval: 0.13 * charIndex, repeats: false) {_ in
                 self.titleLabel.text?.append(letter)
             }
             charIndex += 1
         }
         
+        // create custom back button
+        let backButton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backButtonPressed))
+        
+        // Set the custom back button as the left bar button item
+        navigationItem.leftBarButtonItem = backButton
+    }
+    
+    @objc func backButtonPressed() {
+        // Get a reference to the target view controller
+        guard let targetViewController = navigationController?.viewControllers.first(where: { $0 is DashboardViewController }) else {
+            return
+        }
+        
+        // Pop to the target view controller
+        navigationController?.popToViewController(targetViewController, animated: true)
     }
 }
+
 
