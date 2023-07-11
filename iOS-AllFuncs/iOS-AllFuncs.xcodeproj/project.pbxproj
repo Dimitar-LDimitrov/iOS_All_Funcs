@@ -23,6 +23,7 @@
 		337089562A137C8E00191ED2 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3370894F2A137C8E00191ED2 /* E.wav */; };
 		337089572A137C8E00191ED2 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 337089502A137C8E00191ED2 /* D.wav */; };
 		3375FDAE2A5D80CD00FADEBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375FDAD2A5D80CD00FADEBC /* Constants.swift */; };
+		3375FDB12A5D8ED200FADEBC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375FDB02A5D8ED200FADEBC /* Message.swift */; };
 		33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */; };
 		33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */; };
 		33A0D4FC2A277A7300057C0D /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4FB2A277A7300057C0D /* Story.swift */; };
@@ -72,6 +73,7 @@
 		3370894F2A137C8E00191ED2 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		337089502A137C8E00191ED2 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		3375FDAD2A5D80CD00FADEBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3375FDB02A5D8ED200FADEBC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerViewController.swift; sourceTree = "<group>"; };
 		33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzGameTwoViewController.swift; sourceTree = "<group>"; };
 		33A0D4FB2A277A7300057C0D /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 				337089502A137C8E00191ED2 /* D.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3375FDAF2A5D8EBE00FADEBC /* FlashChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				3375FDB02A5D8ED200FADEBC /* Message.swift */,
+			);
+			path = FlashChatApp;
 			sourceTree = "<group>";
 		};
 		33A0D4F82A277A1300057C0D /* QuizzGameTwo */ = {
@@ -220,6 +230,7 @@
 		33D782C82A1BA6F4002DB61A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3375FDAF2A5D8EBE00FADEBC /* FlashChatApp */,
 				33A9B2D82A4AC63F00908E55 /* BitcoinApp */,
 				33DEAB532A3216F1009FFA36 /* ClimaApp */,
 				33F1C26E2A29C0E400086322 /* BmiCalculator */,
@@ -472,6 +483,7 @@
 				33DB83F02A4C785900970096 /* RegisterViewController.swift in Sources */,
 				33A0D4FE2A277AC700057C0D /* StoryBrain.swift in Sources */,
 				33F1C2702A29C10700086322 /* BmiCalculatorBrain.swift in Sources */,
+				3375FDB12A5D8ED200FADEBC /* Message.swift in Sources */,
 				3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */,
 				33DEAB392A31BC1F009FFA36 /* WeatherViewController.swift in Sources */,
 				33A9B2D72A4AC4F400908E55 /* BitcoinViewController.swift in Sources */,
