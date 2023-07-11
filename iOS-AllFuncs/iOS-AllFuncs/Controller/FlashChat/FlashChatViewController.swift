@@ -17,7 +17,7 @@ class FlashChatViewController: UIViewController {
         
         titleLabel.text = ""
         var charIndex = 0.0
-        let titleText = "⚡️FlashChat"
+        let titleText = Constants.flashChatTitle
         
         for letter in titleText {
             Timer.scheduledTimer(withTimeInterval: 0.13 * charIndex, repeats: false) {_ in
