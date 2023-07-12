@@ -49,6 +49,69 @@
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "155">
                </Location>
+               <Location
+                  uuid = "387BD649-B30A-43FA-8286-9C5001618FEA - c73a8319bb352260"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.FlashChatViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/FlashChat/FlashChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "181">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F2B25C7-C619-4EC3-A2C9-06AA9EF6B0DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Controller/ClimaApp/WeatherViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F2B25C7-C619-4EC3-A2C9-06AA9EF6B0DD - 90e9f4eba3c3ced9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.WeatherViewController.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/ClimaApp/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "8F2B25C7-C619-4EC3-A2C9-06AA9EF6B0DD - 90e9f4eba3c3ced9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.WeatherViewController.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/ClimaApp/WeatherViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "290">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

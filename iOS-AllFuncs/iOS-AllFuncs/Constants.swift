@@ -5,4 +5,5 @@ struct Constants {
     static let loginSegue = "LogInToChat"
     static let flashChatTitle = "⚡️FlashChat"
     static let cellIdentifier = "ReusableCell"
+    static let cellNibName = "MessageCell"
 }

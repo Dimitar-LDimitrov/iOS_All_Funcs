@@ -24,6 +24,8 @@
 		337089572A137C8E00191ED2 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 337089502A137C8E00191ED2 /* D.wav */; };
 		3375FDAE2A5D80CD00FADEBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375FDAD2A5D80CD00FADEBC /* Constants.swift */; };
 		3375FDB12A5D8ED200FADEBC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375FDB02A5D8ED200FADEBC /* Message.swift */; };
+		3375FDB52A5D996900FADEBC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375FDB32A5D996900FADEBC /* MessageCell.swift */; };
+		3375FDB62A5D996900FADEBC /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3375FDB42A5D996900FADEBC /* MessageCell.xib */; };
 		33964FD02A14FD9F00DA2E69 /* EggTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */; };
 		33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */; };
 		33A0D4FC2A277A7300057C0D /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A0D4FB2A277A7300057C0D /* Story.swift */; };
@@ -74,6 +76,8 @@
 		337089502A137C8E00191ED2 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 		3375FDAD2A5D80CD00FADEBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3375FDB02A5D8ED200FADEBC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3375FDB32A5D996900FADEBC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		3375FDB42A5D996900FADEBC /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		33964FCF2A14FD9F00DA2E69 /* EggTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerViewController.swift; sourceTree = "<group>"; };
 		33A0D4F62A2779FB00057C0D /* QuizzGameTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzGameTwoViewController.swift; sourceTree = "<group>"; };
 		33A0D4FB2A277A7300057C0D /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
@@ -152,6 +156,15 @@
 				3375FDB02A5D8ED200FADEBC /* Message.swift */,
 			);
 			path = FlashChatApp;
+			sourceTree = "<group>";
+		};
+		3375FDB22A5D993B00FADEBC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3375FDB32A5D996900FADEBC /* MessageCell.swift */,
+				3375FDB42A5D996900FADEBC /* MessageCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		33A0D4F82A277A1300057C0D /* QuizzGameTwo */ = {
@@ -264,6 +277,7 @@
 		33D782CC2A1C9F05002DB61A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3375FDB22A5D993B00FADEBC /* Cell */,
 				33B838502A0D105200982627 /* Main.storyboard */,
 			);
 			path = View;
@@ -394,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				337089552A137C8E00191ED2 /* G.wav in Resources */,
+				3375FDB62A5D996900FADEBC /* MessageCell.xib in Resources */,
 				33B838572A0D105400982627 /* LaunchScreen.storyboard in Resources */,
 				337089542A137C8E00191ED2 /* F.wav in Resources */,
 				33B838542A0D105400982627 /* Assets.xcassets in Resources */,
@@ -473,6 +488,7 @@
 				33DB83F42A4C787500970096 /* ChatViewController.swift in Sources */,
 				33B8385F2A0D109900982627 /* DiceViewController.swift in Sources */,
 				33A0D4FC2A277A7300057C0D /* Story.swift in Sources */,
+				3375FDB52A5D996900FADEBC /* MessageCell.swift in Sources */,
 				3327AE872A49AC1F0040EB44 /* WeatherData.swift in Sources */,
 				33DB83EE2A4C77A400970096 /* FlashChatViewController.swift in Sources */,
 				3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */,

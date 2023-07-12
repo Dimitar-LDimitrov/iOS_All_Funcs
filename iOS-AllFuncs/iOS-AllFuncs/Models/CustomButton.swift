@@ -14,11 +14,11 @@ class CustomButton: UIButton {
     
     func setupButton() {
         styleButton()
+        setShadow ()
         shakeBottomButton()
     }
     
     private func styleButton() {
-        setShadow ()
         setTitleColor (.white, for: .normal)
         backgroundColor = UIColor(red: 0.4, green: 1.0, blue: 0.6, alpha: 1.0)
         titleLabel?.font = UIFont (name: "AvenirNext-DemiBold", size: 18)

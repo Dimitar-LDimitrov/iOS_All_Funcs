@@ -9,7 +9,7 @@ class ChatViewController: UIViewController {
     var messages: [Message] = [
         Message(sender: "mitko@abv.bg", body: "Hey!"),
         Message(sender: "dada@dada.by", body: "Hello"),
-        Message(sender: "mitko@abv.bg", body: "What`s up?")
+        Message(sender: "mitko@abv.bg", body: "What`s up? What`s up? What`s up? What`s up? What`s up? What`s up?")
     ]
     
     override func viewDidLoad() {
@@ -20,6 +20,8 @@ class ChatViewController: UIViewController {
         
         navigationItem.hidesBackButton = true
         navigationItem.title = "⚡️FlashChat"
+        
+        tableView.register(UINib(nibName: Constants.cellNibName, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
     }
     
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
@@ -27,7 +29,7 @@ class ChatViewController: UIViewController {
         do {
             try Auth.auth().signOut()
             
-            // I create segue to show FlashChatViewController when this button is pressed
+            // I create segue to show FlashChatViewconstantroller when this button is pressed
             
         } catch let signOutError as NSError {
             print("Error signing out: %@", signOutError)
@@ -41,14 +43,14 @@ extension ChatViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellIdentifier, for: indexPath)
-        cell.textLabel?.text = messages[indexPath.row].body
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.cellIdentifier, for: indexPath) as! MessageCell
+        cell.label.text = messages[indexPath.row].body
         
         return cell
     }
 }
 
-// just to practice delegates print on consol the number of selected row
+// just to practice delegates print to console the number of selected row
 extension ChatViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
