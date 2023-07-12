@@ -24,6 +24,14 @@ class ChatViewController: UIViewController {
         tableView.register(UINib(nibName: Constants.cellNibName, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
     }
     
+    
+    @IBAction func sendButtonPressed(_ sender: Any) {
+        
+        if let message = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
+            
+        }
+    }
+    
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
         
         do {
