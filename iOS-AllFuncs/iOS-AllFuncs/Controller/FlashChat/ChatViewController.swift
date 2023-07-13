@@ -1,10 +1,13 @@
 import UIKit
 import FirebaseAuth
+import FirebaseFirestore
 
 class ChatViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
+    
+    let db = Firestore.firestore()
     
     var messages: [Message] = [
         Message(sender: "mitko@abv.bg", body: "Hey!"),
@@ -22,13 +25,40 @@ class ChatViewController: UIViewController {
         navigationItem.title = "⚡️FlashChat"
         
         tableView.register(UINib(nibName: Constants.cellNibName, bundle: nil), forCellReuseIdentifier: Constants.cellIdentifier)
+        
+        loadMessages()
     }
-    
     
     @IBAction func sendButtonPressed(_ sender: Any) {
         
         if let message = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
             
+            // add data to Firebase db
+            db.collection(Constants.FStore.collectionName).addDocument(
+                data:["sender": messageSender, "body": message])
+            { (error) in
+                if let e = error {
+                    print("There was an issue saving data to firestore, \(e.localizedDescription)")
+                } else {
+                    print("Successfully saved data.")
+                }
+            }
+        }
+    }
+    
+    // load data from Firestore
+    func loadMessages() {
+        
+        db.collection("messages").getDocuments { querySnapshot, error in
+            if let e = error {
+                print("There is an issue retrieving data from Firestore. \(e)")
+            } else {
+                if let snapshotDocuments = querySnapshot?.documents {
+                    for document in snapshotDocuments {
+                        print(document.data())
+                    }
+                }
+            }
         }
     }
     

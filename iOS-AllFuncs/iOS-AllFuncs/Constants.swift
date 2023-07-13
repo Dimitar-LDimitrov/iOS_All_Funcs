@@ -6,4 +6,10 @@ struct Constants {
     static let flashChatTitle = "⚡️FlashChat"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "MessageCell"
+    
+    struct FStore {
+        static let collectionName = "messages"
+        static let sender = "sender"
+        static let message = "message"
+    }
 }
