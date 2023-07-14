@@ -9,11 +9,7 @@ class ChatViewController: UIViewController {
     
     let db = Firestore.firestore()
     
-    var messages: [Message] = [
-        Message(sender: "mitko@abv.bg", body: "Hey!"),
-        Message(sender: "dada@dada.by", body: "Hello"),
-        Message(sender: "mitko@abv.bg", body: "What`s up? What`s up? What`s up? What`s up? What`s up? What`s up?")
-    ]
+    var messages: [Message] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,7 +51,20 @@ class ChatViewController: UIViewController {
             } else {
                 if let snapshotDocuments = querySnapshot?.documents {
                     for document in snapshotDocuments {
-                        print(document.data())
+                        let data = document.data()
+                        let senderTest = data[Constants.FStore.sender]
+                        let messageTest = data[Constants.FStore.message]
+                        if let messageSender = data[Constants.FStore.sender] as? String, let messageBody = data["body"] as? String {
+                            
+                            let newMessage = Message(sender: messageSender, body: messageBody)
+                            
+                            self.messages.append(newMessage)
+                            
+                            // Is good practice when you change UI data to call DispatchQueue
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
                     }
                 }
             }
