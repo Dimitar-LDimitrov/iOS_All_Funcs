@@ -19,9 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         
         // enable keyboard manager 3rd library
+        IQKeyboardManager.initialize()
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.enableAutoToolbar = false // remove toolbar ot keyboard
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
         
         let db = Firestore.firestore()
         
