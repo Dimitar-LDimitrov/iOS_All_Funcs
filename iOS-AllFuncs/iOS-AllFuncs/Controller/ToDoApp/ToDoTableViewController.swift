@@ -9,17 +9,25 @@ import UIKit
 
 class ToDoTableViewController: UITableViewController {
     
-    var itemArray = [ "Legolas", "Aragorn", "Gimlys"]
+    var itemArray = [ToDoItemCell]()
     
     let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let toDoItem1 = ToDoItemCell()
+        toDoItem1.title = "Sam"
+        itemArray.append(toDoItem1)
+        
+        let toDoItem2 = ToDoItemCell()
+        toDoItem2.title = "Pipin"
+        itemArray.append(toDoItem2)
+        
         // Here we connect itemArray data with phone/simulator persistant data
-        if let items = defaults.array(forKey: "ToDoListArray") as? [String] {
-            itemArray = items
-        }
+      //  if let items = defaults.array(forKey: "ToDoListArray") as? [String] {
+      //      itemArray = items
+      //  }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,15 +37,13 @@ class ToDoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoCell", for: indexPath)
         
-        cell.textLabel?.text = itemArray[indexPath.row]
+        cell.textLabel?.text = itemArray[indexPath.row].title
         
         return cell
     }
     
     // when the cell is pressed
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
-        print(itemArray[indexPath.row])
         
         // that give you reference to the selected cell
         // tableView.cellForRow(at: indexPath)
@@ -45,14 +51,11 @@ class ToDoTableViewController: UITableViewController {
         // deselect and select checkmark in cell
         if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark {
             tableView.cellForRow(at: indexPath)?.accessoryType = .none
+            itemArray[indexPath.row].isChecked = false
         } else {
             tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+            itemArray[indexPath.row].isChecked = true
         }
-        
-        // deselect checkmark
-        
-        // deselect cell when the cell is pressed
-        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     
@@ -65,7 +68,11 @@ class ToDoTableViewController: UITableViewController {
         // what will happend when the user pressed "Add Item" btn on our UIAlert
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
 
-            self.itemArray.append(textField.text!)
+            //self.itemArray.append(textField.text!)
+            
+            let newCell = ToDoItemCell()
+            newCell.title = textField.text!
+            self.itemArray.append(newCell)
             
             self.defaults.set(self.itemArray, forKey: "ToDoListArray")
             

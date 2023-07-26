@@ -43,6 +43,7 @@
 		33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B838602A0D32F900982627 /* DiamondViewController.swift */; };
 		33C5638A2A137B12005477F9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C563892A137B12005477F9 /* XylophoneViewController.swift */; };
 		33D23BEE2A6FF3930057EC2B /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D23BED2A6FF3930057EC2B /* ToDoTableViewController.swift */; };
+		33D23BF12A715F9C0057EC2B /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D23BF02A715F9C0057EC2B /* ToDoItemCell.swift */; };
 		33D782CA2A1BA72A002DB61A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782C92A1BA72A002DB61A /* Question.swift */; };
 		33D782CE2A1C9FBB002DB61A /* QuizzData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D782CD2A1C9FBB002DB61A /* QuizzData.swift */; };
 		33DB83EE2A4C77A400970096 /* FlashChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB83ED2A4C77A400970096 /* FlashChatViewController.swift */; };
@@ -98,6 +99,7 @@
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		33D23BED2A6FF3930057EC2B /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		33D23BF02A715F9C0057EC2B /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };
 		33DB83ED2A4C77A400970096 /* FlashChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatViewController.swift; sourceTree = "<group>"; };
@@ -250,9 +252,18 @@
 			path = ToDoApp;
 			sourceTree = "<group>";
 		};
+		33D23BEF2A715F5D0057EC2B /* TodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				33D23BF02A715F9C0057EC2B /* ToDoItemCell.swift */,
+			);
+			path = TodoApp;
+			sourceTree = "<group>";
+		};
 		33D782C82A1BA6F4002DB61A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				33D23BEF2A715F5D0057EC2B /* TodoApp */,
 				3375FDAF2A5D8EBE00FADEBC /* FlashChatApp */,
 				33A9B2D82A4AC63F00908E55 /* BitcoinApp */,
 				33DEAB532A3216F1009FFA36 /* ClimaApp */,
@@ -484,6 +495,7 @@
 			files = (
 				33B8384F2A0D105200982627 /* ViewController.swift in Sources */,
 				3375FDAE2A5D80CD00FADEBC /* Constants.swift in Sources */,
+				33D23BF12A715F9C0057EC2B /* ToDoItemCell.swift in Sources */,
 				330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */,
 				33B838612A0D32F900982627 /* DiamondViewController.swift in Sources */,
 				33DEAB552A32170A009FFA36 /* WeatherManager.swift in Sources */,
