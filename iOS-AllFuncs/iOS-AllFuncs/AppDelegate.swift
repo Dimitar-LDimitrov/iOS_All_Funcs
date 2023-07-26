@@ -24,10 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enableAutoToolbar = false // remove toolbar ot keyboard
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         
-        
         let db = Firestore.firestore()
         
-        print(db)
+        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
         
         return true
     }

@@ -10,10 +10,16 @@ import UIKit
 class ToDoTableViewController: UITableViewController {
     
     var itemArray = [ "Legolas", "Aragorn", "Gimlys"]
+    
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Here we connect itemArray data with phone/simulator persistant data
+        if let items = defaults.array(forKey: "ToDoListArray") as? [String] {
+            itemArray = items
+        }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,6 +66,8 @@ class ToDoTableViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
 
             self.itemArray.append(textField.text!)
+            
+            self.defaults.set(self.itemArray, forKey: "ToDoListArray")
             
             DispatchQueue.main.async {
                 self.tableView.reloadData()
