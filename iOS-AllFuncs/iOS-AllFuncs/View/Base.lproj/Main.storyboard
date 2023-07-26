@@ -347,6 +347,16 @@
                                     <segue destination="V2k-Yn-WE8" kind="show" id="C3l-Su-Kd5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVk-Vw-sqa" customClass="CustomButton" customModule="iOS_AllFuncs" customModuleProvider="target">
+                                <rect key="frame" x="145" y="304" width="100" height="35"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ToDo App"/>
+                                <connections>
+                                    <segue destination="Gk2-sA-mdP" kind="show" id="tJm-vO-p5O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -360,11 +370,13 @@
                             <constraint firstItem="JZ8-na-EhI" firstAttribute="top" secondItem="tUe-HN-etK" secondAttribute="bottom" constant="24" id="Arw-rN-nJo"/>
                             <constraint firstItem="J9L-xi-b02" firstAttribute="top" secondItem="h9p-fw-D61" secondAttribute="bottom" constant="24" id="Dlo-Fx-HGa"/>
                             <constraint firstItem="9sm-uw-Hs4" firstAttribute="top" secondItem="9jT-aF-HOH" secondAttribute="bottom" constant="24" id="HKh-eb-JJW"/>
+                            <constraint firstItem="BVk-Vw-sqa" firstAttribute="top" secondItem="x0w-GR-hck" secondAttribute="bottom" constant="24" id="HiT-nG-1BF"/>
                             <constraint firstItem="nVU-yf-041" firstAttribute="top" secondItem="2Av-jq-JbV" secondAttribute="bottom" constant="24" id="JtX-Jb-idb"/>
                             <constraint firstItem="9sm-uw-Hs4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="M7S-qS-inf"/>
                             <constraint firstItem="aYo-Pq-UBD" firstAttribute="top" secondItem="OMx-6Y-UNf" secondAttribute="bottom" constant="24" id="O31-tL-FRY"/>
                             <constraint firstItem="9jT-aF-HOH" firstAttribute="top" secondItem="nVU-yf-041" secondAttribute="bottom" constant="24" id="PC5-t4-wiv"/>
                             <constraint firstItem="h9p-fw-D61" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="PxI-Yr-QFi"/>
+                            <constraint firstItem="BVk-Vw-sqa" firstAttribute="leading" secondItem="nVU-yf-041" secondAttribute="trailing" constant="16" id="VKS-bY-Ign"/>
                             <constraint firstItem="x0w-GR-hck" firstAttribute="leading" secondItem="2Av-jq-JbV" secondAttribute="trailing" constant="16" id="Y8P-vK-Ufp"/>
                             <constraint firstAttribute="bottom" secondItem="yew-RA-Wp8" secondAttribute="bottom" id="ZLE-Jr-tR9"/>
                             <constraint firstItem="J9L-xi-b02" firstAttribute="leading" secondItem="JZ8-na-EhI" secondAttribute="trailing" constant="16" id="bIi-8X-zfP"/>
@@ -388,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="875.57251908396938" y="-35.211267605633807"/>
+            <point key="canvasLocation" x="2729.0076335877861" y="-35.211267605633807"/>
         </scene>
         <!--Eight Ball View Controller-->
         <scene sceneID="RmL-bq-S7Q">
@@ -960,7 +972,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hol-M3-cbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1679" y="-35"/>
+            <point key="canvasLocation" x="3530.5343511450378" y="-35.211267605633807"/>
         </scene>
         <!--ResultBMI View Controller-->
         <scene sceneID="osI-Vy-A1t">
@@ -1038,7 +1050,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RuO-xC-xRh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2413" y="-35"/>
+            <point key="canvasLocation" x="4266.4122137404574" y="-35.211267605633807"/>
         </scene>
         <!--Bill Calculator View Controller-->
         <scene sceneID="j3N-0D-EFq">
@@ -1242,7 +1254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUu-A0-sfm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3140" y="-35"/>
+            <point key="canvasLocation" x="4993.1297709923665" y="-35.211267605633807"/>
         </scene>
         <!--Bill Calculator Result View Controller-->
         <scene sceneID="CZ0-uY-08I">
@@ -1333,18 +1345,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVy-iX-09r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3863" y="-35"/>
+            <point key="canvasLocation" x="5715.2671755725187" y="-35.211267605633807"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="xok-yV-mhZ">
             <objects>
                 <viewController id="gw9-6R-Rhs" customClass="RegisterViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4HG-ng-aug">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="joj-6M-B6E" userLabel="EmailView">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="177"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="177"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="pDX-Hw-fOY">
                                         <rect key="frame" x="0.0" y="20" width="393" height="137"/>
@@ -1369,7 +1381,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDT-hG-wKj" userLabel="PasswordView">
-                                <rect key="frame" x="0.0" y="77" width="393" height="177"/>
+                                <rect key="frame" x="0.0" y="180" width="393" height="177"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brk-aU-Ata">
                                         <rect key="frame" x="0.0" y="126" width="393" height="51"/>
@@ -1428,22 +1440,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nME-yh-yge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826" y="-1072"/>
+            <point key="canvasLocation" x="-792" y="-1374"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="Z3B-Gt-9hB">
             <objects>
                 <viewController id="am8-AT-zQz" customClass="ChatViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="acH-If-cc3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JSc-8B-LhP">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="782"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="655"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kc-fU-9P5">
-                                <rect key="frame" x="0.0" y="782" width="393" height="60"/>
+                                <rect key="frame" x="0.0" y="758" width="393" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L0a-ep-oqC">
                                         <rect key="frame" x="20" y="20" width="293" height="40"/>
@@ -1514,11 +1526,11 @@
             <objects>
                 <viewController id="9gE-7v-IOx" customClass="LogInViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dsx-94-UsB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFd-wD-1YY" userLabel="EmailView">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="177"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="177"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="CPD-0e-c5Q">
                                         <rect key="frame" x="0.0" y="20" width="393" height="137"/>
@@ -1543,7 +1555,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTq-6v-vNC" userLabel="PasswordView">
-                                <rect key="frame" x="0.0" y="77" width="393" height="177"/>
+                                <rect key="frame" x="0.0" y="180" width="393" height="177"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="6dZ-kI-0mt">
                                         <rect key="frame" x="0.0" y="20" width="393" height="137"/>
@@ -1602,18 +1614,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14E-sZ-xat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-815" y="-387"/>
+            <point key="canvasLocation" x="-793" y="-694"/>
         </scene>
         <!--Flash Chat View Controller-->
         <scene sceneID="z0y-Ai-vtB">
             <objects>
                 <viewController storyboardIdentifier="FlashChatViewController" id="V2k-Yn-WE8" customClass="FlashChatViewController" customModule="iOS_AllFuncs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sam-ve-3aL">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKf-tc-vEV">
-                                <rect key="frame" x="0.0" y="781" width="393" height="61"/>
+                                <rect key="frame" x="0.0" y="757" width="393" height="61"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="uR6-dj-RQN"/>
@@ -1627,7 +1639,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-8U-DhF" customClass="Lab">
-                                <rect key="frame" x="42" y="391" width="309" height="60"/>
+                                <rect key="frame" x="42" y="396" width="309" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="JiW-37-eAa"/>
                                 </constraints>
@@ -1636,7 +1648,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNr-bn-0la">
-                                <rect key="frame" x="0.0" y="725" width="393" height="48"/>
+                                <rect key="frame" x="0.0" y="701" width="393" height="48"/>
                                 <color key="backgroundColor" name="BrandLightBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="H6O-kY-9v4"/>
@@ -1666,7 +1678,9 @@
                             <constraint firstItem="oNr-bn-0la" firstAttribute="trailing" secondItem="RxJ-Wl-xSf" secondAttribute="trailing" id="wqi-uV-xzL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="WbL-1U-JFg"/>
+                    <navigationItem key="navigationItem" id="WbL-1U-JFg">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Cni-Hb-iIo"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="titleLabel" destination="7H8-8U-DhF" id="4At-g6-wpL"/>
                     </connections>
@@ -1691,7 +1705,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnY-om-xhu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9.9236641221374047" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="1863.3587786259541" y="-34.507042253521128"/>
         </scene>
         <!--Dice View Controller-->
         <scene sceneID="97A-xg-w2E">
@@ -1938,11 +1952,69 @@
             </objects>
             <point key="canvasLocation" x="10" y="685"/>
         </scene>
+        <!--To Do App-->
+        <scene sceneID="WLx-Db-azV">
+            <objects>
+                <tableViewController id="tbo-li-Sz2" customClass="ToDoTableViewController" customModule="iOS_AllFuncs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="B5i-zH-JrV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoCell" id="GL0-p0-DCj">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GL0-p0-DCj" id="fQL-cc-WVk">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tbo-li-Sz2" id="SHX-VW-W8Z"/>
+                            <outlet property="delegate" destination="tbo-li-Sz2" id="Ya9-D0-iXL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="To Do App" id="7dV-Hr-Zfw">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DTk-vu-pwY">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="AddButtonPressed:" destination="tbo-li-Sz2" id="7Zh-Cq-YxR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWV-He-GNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="-35"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QAM-7F-GAW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gk2-sA-mdP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="iIE-c8-0Pq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HZL-1J-niI">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tbo-li-Sz2" kind="relationship" relationship="rootViewController" id="yAC-Fh-hOw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5B-5x-p02" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="-35"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="13w-pP-Ec3"/>
-        <segue reference="HTX-Lc-afr"/>
-        <segue reference="Wcs-MY-5sK"/>
+        <segue reference="C3l-Su-Kd5"/>
+        <segue reference="TCT-X8-CU4"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemCyanColor"/>
     <resources>
@@ -2013,6 +2085,9 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

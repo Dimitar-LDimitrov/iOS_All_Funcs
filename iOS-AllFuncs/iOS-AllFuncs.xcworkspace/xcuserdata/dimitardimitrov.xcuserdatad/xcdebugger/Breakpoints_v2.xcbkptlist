@@ -97,6 +97,21 @@
                   endingLineNumber = "59"
                   offsetFromSymbolStart = "2418">
                </Location>
+               <Location
+                  uuid = "CAC7636F-C60D-47BC-BB30-C52F7CFAB7DA - e9636dad624db7bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in iOS_AllFuncs.ChatViewController.loadMessages() -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/FlashChat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "2181">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -113,6 +128,22 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "loadMessages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B715107-8043-4D2A-9F5A-0A4DC02B2872"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS-AllFuncs/Controller/ToDoApp/ToDoTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "AddButtonPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
