@@ -1,6 +1,6 @@
 import Foundation
 
-class ToDoItemCell {
+class ToDoItemCell : Encodable {
     
     var title: String = ""
     var isChecked: Bool = false

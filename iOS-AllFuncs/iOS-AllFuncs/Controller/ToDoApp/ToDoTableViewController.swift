@@ -11,8 +11,8 @@ class ToDoTableViewController: UITableViewController {
     
     var itemArray = [ToDoItemCell]()
     
-    let defaults = UserDefaults.standard
-
+    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,9 +25,9 @@ class ToDoTableViewController: UITableViewController {
         itemArray.append(toDoItem2)
         
         // Here we connect itemArray data with phone/simulator persistant data
-      //  if let items = defaults.array(forKey: "ToDoListArray") as? [String] {
-      //      itemArray = items
-      //  }
+       // if let items = defaults.array(forKey: "ToDoListArray") as? [ToDoItemCell] {
+       //     itemArray = items
+       // }
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -67,14 +67,22 @@ class ToDoTableViewController: UITableViewController {
         
         // what will happend when the user pressed "Add Item" btn on our UIAlert
         let action = UIAlertAction(title: "Add Item", style: .default) { (action) in
-
-            //self.itemArray.append(textField.text!)
             
             let newCell = ToDoItemCell()
             newCell.title = textField.text!
             self.itemArray.append(newCell)
             
-            self.defaults.set(self.itemArray, forKey: "ToDoListArray")
+            // this is for setting UserDefaults, but we are gonna use FileManager
+            // self.defaults.set(self.itemArray, forKey: "ToDoListArray")
+            
+            let encoder = PropertyListEncoder()
+            
+            do {
+                let data = try encoder.encode(self.itemArray)
+                try data.write(to: self.dataFilePath!)
+            } catch {
+                print("Error encoding item array, \(error)")
+            }
             
             DispatchQueue.main.async {
                 self.tableView.reloadData()
