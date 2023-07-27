@@ -9,6 +9,7 @@ import UIKit
 import FirebaseCore
 import FirebaseFirestore
 import IQKeyboardManagerSwift
+import RealmSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +26,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
         
         let db = Firestore.firestore()
+        print(db)
+        
+        print("This is Realm database file path: \(Realm.Configuration.defaultConfiguration.fileURL)")
+        
+        do {
+            let realm = try Realm()
+        } catch {
+            printContent("Error initializing new Realm, \(error)")
+        }
         
         print("This is the path of local persistent data: \(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String). In end of the path is Library/Preferences instead of Document")
         

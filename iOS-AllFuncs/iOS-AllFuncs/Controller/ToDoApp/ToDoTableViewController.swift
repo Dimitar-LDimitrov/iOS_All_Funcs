@@ -28,7 +28,7 @@ class ToDoTableViewController: UITableViewController {
        // if let items = defaults.array(forKey: "ToDoListArray") as? [ToDoItemCell] {
        //     itemArray = items
        // }
-    
+        loadItems()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -102,5 +102,16 @@ class ToDoTableViewController: UITableViewController {
         }
         
         tableView.reloadData()
+    }
+    
+    func loadItems() {
+        if let data = try? Data(contentsOf: dataFilePath!) {
+            let decoder = PropertyListDecoder()
+            do {
+                itemArray = try decoder.decode([ToDoItemCell].self, from: data)
+            } catch {
+                printContent("Error decoding item array, \(error)")
+            }
+        }
     }
 }

@@ -9,4 +9,5 @@ target 'iOS-AllFuncs' do
     pod 'FirebaseAuth'
     pod 'FirebaseFirestore'
     pod 'IQKeyboardManagerSwift'
+    pod 'RealmSwift'
 end
