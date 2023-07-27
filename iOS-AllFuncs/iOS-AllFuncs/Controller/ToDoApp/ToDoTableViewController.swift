@@ -28,6 +28,7 @@ class ToDoTableViewController: UITableViewController {
        // if let items = defaults.array(forKey: "ToDoListArray") as? [ToDoItemCell] {
        //     itemArray = items
        // }
+    
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -35,9 +36,14 @@ class ToDoTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoCell", for: indexPath)
         
-        cell.textLabel?.text = itemArray[indexPath.row].title
+        let item = itemArray[indexPath.row]
+        
+        cell.textLabel?.text = item.title
+        
+        cell.accessoryType = item.isChecked ? .checkmark : .none
         
         return cell
     }
@@ -49,17 +55,16 @@ class ToDoTableViewController: UITableViewController {
         // tableView.cellForRow(at: indexPath)
         
         // deselect and select checkmark in cell
-        if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark {
-            tableView.cellForRow(at: indexPath)?.accessoryType = .none
-            itemArray[indexPath.row].isChecked = false
-        } else {
-            tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
-            itemArray[indexPath.row].isChecked = true
-        }
+        itemArray[indexPath.row].isChecked = !itemArray[indexPath.row].isChecked
+        
+        saveDataToDevice()
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     
     @IBAction func AddButtonPressed(_ sender: UIBarButtonItem) {
+        
         var textField = UITextField()
         
         // the title of alert
@@ -70,23 +75,10 @@ class ToDoTableViewController: UITableViewController {
             
             let newCell = ToDoItemCell()
             newCell.title = textField.text!
+            
             self.itemArray.append(newCell)
             
-            // this is for setting UserDefaults, but we are gonna use FileManager
-            // self.defaults.set(self.itemArray, forKey: "ToDoListArray")
-            
-            let encoder = PropertyListEncoder()
-            
-            do {
-                let data = try encoder.encode(self.itemArray)
-                try data.write(to: self.dataFilePath!)
-            } catch {
-                print("Error encoding item array, \(error)")
-            }
-            
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
+            self.saveDataToDevice()
         }
         
         alert.addTextField() { (alertTextField) in
@@ -96,5 +88,19 @@ class ToDoTableViewController: UITableViewController {
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+    }
+    
+    func saveDataToDevice() {
+        
+        let encoder = PropertyListEncoder()
+        
+        do {
+            let data = try encoder.encode(self.itemArray)
+            try data.write(to: self.dataFilePath!)
+        } catch {
+            print("Error encoding item array, \(error)")
+        }
+        
+        tableView.reloadData()
     }
 }

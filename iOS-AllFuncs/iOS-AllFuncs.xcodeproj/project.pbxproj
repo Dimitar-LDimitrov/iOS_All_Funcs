@@ -98,7 +98,7 @@
 		33B8385E2A0D109900982627 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		33B838602A0D32F900982627 /* DiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondViewController.swift; sourceTree = "<group>"; };
 		33C563892A137B12005477F9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
-		33D23BED2A6FF3930057EC2B /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		33D23BED2A6FF3930057EC2B /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		33D23BF02A715F9C0057EC2B /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
 		33D782C92A1BA72A002DB61A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		33D782CD2A1C9FBB002DB61A /* QuizzData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzData.swift; sourceTree = "<group>"; };

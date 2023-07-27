@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let db = Firestore.firestore()
         
-        // print("This is the path of local persistent data: \(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String). In end of the path is Library/Preferences instead of Document")
+        print("This is the path of local persistent data: \(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String). In end of the path is Library/Preferences instead of Document")
         
         return true
     }
