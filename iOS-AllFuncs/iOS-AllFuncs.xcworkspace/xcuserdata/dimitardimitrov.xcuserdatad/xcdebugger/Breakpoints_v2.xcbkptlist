@@ -134,68 +134,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B6F6A0F7-E732-4E22-95CA-53300502F5E8"
+            uuid = "B62436DE-4047-4493-9E20-3D80EF313593"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOS-AllFuncs/Controller/Calculator/CalculatorViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "numberBtnPressed(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B6F6A0F7-E732-4E22-95CA-53300502F5E8 - 86a0585a17f5ada4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.CalculatorViewController.numberBtnPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "iOS-AllFuncs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/Calculator/CalculatorViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "557">
-               </Location>
-               <Location
-                  uuid = "B6F6A0F7-E732-4E22-95CA-53300502F5E8 - 86a0585a17f5ada4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iOS_AllFuncs.CalculatorViewController.numberBtnPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "iOS-AllFuncs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/Calculator/CalculatorViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "292">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AB928528-7645-461C-9EDC-DDE9102386A2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS-AllFuncs/Controller/Calculator/CalculatorViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "numberBtnPressed(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AB928528-7645-461C-9EDC-DDE9102386A2 - 86a0585a17f5aa03"
+                  uuid = "B62436DE-4047-4493-9E20-3D80EF313593 - 86a0585a17f5aa03"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -207,10 +159,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
                   endingLineNumber = "43"
-                  offsetFromSymbolStart = "1357">
+                  offsetFromSymbolStart = "618">
                </Location>
                <Location
-                  uuid = "AB928528-7645-461C-9EDC-DDE9102386A2 - 86a0585a17f5aa03"
+                  uuid = "B62436DE-4047-4493-9E20-3D80EF313593 - 86a0585a17f5aa03"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -222,7 +174,22 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
                   endingLineNumber = "43"
-                  offsetFromSymbolStart = "566">
+                  offsetFromSymbolStart = "610">
+               </Location>
+               <Location
+                  uuid = "B62436DE-4047-4493-9E20-3D80EF313593 - 86a0585a17f5aa03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOS_AllFuncs.CalculatorViewController.numberBtnPressed(__C.UIButton) -&gt; ()"
+                  moduleName = "iOS-AllFuncs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimitardimitrov/Desktop/iOS_All_Funcs/iOS-AllFuncs/iOS-AllFuncs/Controller/Calculator/CalculatorViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "644">
                </Location>
             </Locations>
          </BreakpointContent>
