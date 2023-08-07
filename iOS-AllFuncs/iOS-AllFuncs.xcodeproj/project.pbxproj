@@ -10,6 +10,7 @@
 		16D8D9E71CFC530FAF3F1877 /* Pods_iOS_AllFuncs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BD96475A44CC1315523943 /* Pods_iOS_AllFuncs.framework */; };
 		330EEC982A2DFC1C006BA437 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330EEC972A2DFC1C006BA437 /* CustomButton.swift */; };
 		331314602A5C1F4F00635F64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */; };
+		332036DD2A81083A00ACFAB3 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332036DC2A81083A00ACFAB3 /* CalculatorLogic.swift */; };
 		3327AE802A4992CD0040EB44 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE7F2A4992CD0040EB44 /* Config.swift */; };
 		3327AE852A49AB940040EB44 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE842A49AB940040EB44 /* WeatherModel.swift */; };
 		3327AE872A49AC1F0040EB44 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327AE862A49AC1F0040EB44 /* WeatherData.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		330EEC972A2DFC1C006BA437 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		3313145F2A5C1F4F00635F64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		332036DC2A81083A00ACFAB3 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		3327AE7F2A4992CD0040EB44 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		3327AE812A49941B0040EB44 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 		3327AE842A49AB940040EB44 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				33D23BFF2A78FF380057EC2B /* CalculatorViewController.swift */,
+				332036DC2A81083A00ACFAB3 /* CalculatorLogic.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -540,6 +543,7 @@
 				33DB83EE2A4C77A400970096 /* FlashChatViewController.swift in Sources */,
 				3355BB952A2E0F0F008C04E8 /* BillCalculatorViewController.swift in Sources */,
 				33F1C26B2A288A1F00086322 /* BmiCalculatorViewController.swift in Sources */,
+				332036DD2A81083A00ACFAB3 /* CalculatorLogic.swift in Sources */,
 				33F3731F2A16649800391035 /* QuizzlerViewController.swift in Sources */,
 				33FD8A9F2A12621200488470 /* EightBallViewController.swift in Sources */,
 				33A0D4F72A2779FB00057C0D /* QuizzGameTwoViewController.swift in Sources */,

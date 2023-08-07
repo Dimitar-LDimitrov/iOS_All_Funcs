@@ -2,14 +2,9 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-    
     @IBOutlet weak var displayLabel: UILabel!
     
-    private var isFinishedTypingNumbers = true
+    private var isFinishedTypingNumbers: Bool = true
     
     private var displayValue: Double {
         get {
@@ -23,19 +18,19 @@ class CalculatorViewController: UIViewController {
         }
     }
     
+    var calculatorLogic = CalculatorLogic()
+    
     @IBAction func calculateBtnPressed(_ sender: UIButton) {
+        
+        isFinishedTypingNumbers = true
         
         if let calcMethod = sender.currentTitle {
             
-            if calcMethod == "+/-" {
-                displayValue *= -1
-                
-            } else if calcMethod == "AC" {
-                
-                isFinishedTypingNumbers = true
-                displayLabel.text = "0"
-            } else if calcMethod == "%" {
-                displayValue *= 0.01
+            
+            calculatorLogic.setNumber(displayValue)
+            
+            if let result = calculatorLogic.calculate(action: calcMethod) {
+                displayValue = result
             }
         }
     }
